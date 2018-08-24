@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featureType>
+  <id><![CDATA[1e9c75850fc8cd9b3ad0c460de41eab4]]></id>
+  <typeName><![CDATA[N_prefixTri_ENJEU_PATRIM_S_ddd]]></typeName>
+  <description><![CDATA[]]></description>
+  <attributes>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[6abe686464dbb643984b506b8eb77dde]]></id>
+      <name><![CDATA[NOM_SI_EXT]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[77eea030769fed41cf71934017d40441]]></id>
+      <name><![CDATA[ID_SI_EXT]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[a67dd7c1947ac816a6372aa47877b8d7]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[a86577f41837eeafd9de0b85101339a6]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[Vrai]]></value>
+        <value><![CDATA[Faux]]></value>
+      </listOfValues>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[b23b2ed367d249ee43e9b3cd2d57ced8]]></id>
+      <name><![CDATA[VER_SI_EXT]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[ea02af64c6726ee647ea5ba376e68a8f]]></id>
+      <name><![CDATA[TYPE_ENJEU]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[fbf75c3cad913a0e49b0aab5e2704b8e]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+    </attribute>
+  </attributes>
+</featureType>

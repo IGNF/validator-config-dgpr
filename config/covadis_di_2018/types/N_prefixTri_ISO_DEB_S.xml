@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featureType>
+  <id><![CDATA[42b45f54a8643a1a842b3b02ef8862c6]]></id>
+  <typeName><![CDATA[N_prefixTri_ISO_DEB_S]]></typeName>
+  <description><![CDATA[]]></description>
+  <attributes>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[0e4b8a8ad42843e301f59bc21f95559d]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[2d3b7c65c9e10cf14d0651e483c83f77]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[Vrai]]></value>
+        <value><![CDATA[Faux]]></value>
+      </listOfValues>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA["DEBLIN_MAX" = NULL  OR   "DEBLIN_MAX" >=  "DEBLIN_MIN"]]></regexp>
+      <id><![CDATA[53aa71789c6d17128838d8ed10db1161]]></id>
+      <name><![CDATA[DEBLIN_MAX]]></name>
+      <description><![CDATA[Exprimé en m²/s - DEBLIN_MAX >= DEBLIN_MIN]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[760a0612020bff7f027d80c89c8bafcd]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA["DEBLIN_MIN" >= ]]></regexp>
+      <id><![CDATA[9743ea04993aa0f3b198011640e9ad4e]]></id>
+      <name><![CDATA[DEBLIN_MIN]]></name>
+      <description><![CDATA[Valeur vide interdite
+- Exprimé en m²/s
+- Ne peut pas être négative]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[d801a82e1e5a1194d0f18d06c8d7ec1c]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[f63345e359728efb76d8b97ec5e54018]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Relation]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[ZCD_[0-9]+$]]></regexp>
+      <id><![CDATA[fb16efce2886a60ac038044f5cf039bf]]></id>
+      <name><![CDATA[ID_ZONE]]></name>
+      <description><![CDATA[COVADIS B1.2. - Identifiant de type ZCD_'[numero automatique]']]></description>
+      <type><![CDATA[null]]></type>
+      <nullable>false</nullable>
+    </attribute>
+  </attributes>
+</featureType>

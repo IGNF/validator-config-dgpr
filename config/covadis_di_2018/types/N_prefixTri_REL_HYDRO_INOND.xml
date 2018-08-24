@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featureType>
+  <id><![CDATA[5be5162457988dfac6e6c31a00c71012]]></id>
+  <typeName><![CDATA[N_prefixTri_REL_HYDRO_INOND]]></typeName>
+  <description><![CDATA[]]></description>
+  <attributes>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[b754c2e212d31fee0f550a092b526581]]></id>
+      <name><![CDATA[CODE_EH]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[]]></regexp>
+      <id><![CDATA[dd6014b26f82013056bb296f1ad09d72]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Relation]]></type>
+      <nullable>true</nullable>
+    </attribute>
+  </attributes>
+</featureType>
