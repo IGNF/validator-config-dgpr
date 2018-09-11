@@ -1,101 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[d89b05f926fa6ff5c0d8bb54ab515f3b]]></id>
+  <id><![CDATA[7cfcc9a83591c1e65a3368bdda8054fa]]></id>
   <typeName><![CDATA[N_prefixTri_COMMUNE_S_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[134c4a3be40e974a254b3bc7387e4ca7]]></id>
-      <name><![CDATA[ANNEE_COG]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
+      <id><![CDATA[1509565bdfe93f20e4c7bb8d011b14da]]></id>
+      <name><![CDATA[NOM_COM]]></name>
+      <description><![CDATA[@String(80)@]]></description>
+      <type><![CDATA[String]]></type>
+      <size>80</size>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[^[0-9]{5}$]]></regexp>
-      <id><![CDATA[21e2f341c174567531217193b8459c24]]></id>
-      <name><![CDATA[CODE_INSEE]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
+      <id><![CDATA[21f5b660d3baf3bd12f0e5b48e15dfc8]]></id>
+      <name><![CDATA[ID_SI_EXT]]></name>
+      <description><![CDATA[@String(50)@ Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
+      <size>50</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[25b8522e724cf63509965892a68894d1]]></id>
-      <name><![CDATA[NOM_COM]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[402f8d8131b1fedf7a199a03c89af9f2]]></id>
+      <id><![CDATA[2b12145058cf8c1b1449d1eb726033ea]]></id>
       <name><![CDATA[DATENTREE]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[644163b12e5c19be0163033dfc4b1cdb]]></id>
-      <name><![CDATA[HAB_PERM]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[7521df950c34846d2740697ef8b09327]]></id>
-      <name><![CDATA[ID_SI_EXT]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[a0b97c03957d55695e7c66b59466d880]]></id>
-      <name><![CDATA[HAB_SAISON]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[bb2c4160966794e123893767f6b4fc61]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPolygon]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[c71cad8158df430ba3c83843c7541459]]></id>
+      <id><![CDATA[39b88cad91dc5428b282d1a8bbad85cd]]></id>
       <name><![CDATA[DATSORTIE]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[df8532758c59866238cf96d3660913d0]]></id>
-      <name><![CDATA[TX_HAB_SAI]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[null]]></type>
+      <id><![CDATA[496fc3a7e80226444e18e7e3a11bebad]]></id>
+      <name><![CDATA[HAB_SAISON]]></name>
+      <description><![CDATA[@Integer@]]></description>
+      <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[dffd525bf028b95dc4bd315cd9da3d86]]></id>
+      <id><![CDATA[6bb17ea916efea6bfc06182ebf68656b]]></id>
+      <name><![CDATA[HAB_PERM]]></name>
+      <description><![CDATA[@Integer@ Valeur vide interdite]]></description>
+      <type><![CDATA[Integer]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[7948e7dbd05a6e4a82cee057493d933b]]></id>
       <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[@String(10)@]]></description>
       <type><![CDATA[String]]></type>
+      <size>10</size>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[]]></regexp>
-      <id><![CDATA[f2ad615c52028762e1e33c03602008b0]]></id>
-      <name><![CDATA[NOM_SI_EXT]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
+      <id><![CDATA[7f75da1c8019857bdfb2275dcd03245b]]></id>
+      <name><![CDATA[TX_HAB_SAI]]></name>
+      <description><![CDATA[@Integer@]]></description>
+      <type><![CDATA[Integer]]></type>
+      <nullable>true</nullable>
+      <constraint><![CDATA[TX_HAB_SAI >= 0 AND  TX_HAB_SAI <= 100]]></constraint>
+    </attribute>
+    <attribute>
+      <id><![CDATA[896134b440363ee190f125335960c429]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[^[0-9]{5}$]]></regexp>
+      <id><![CDATA[92b65a27cbcefac07876ed1625199030]]></id>
+      <name><![CDATA[CODE_INSEE]]></name>
+      <description><![CDATA[@String(5)@ Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
+      <size>5</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[c9e88b28e3c974affa6ff482ee0f6bc6]]></id>
+      <name><![CDATA[ANNEE_COG]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[df22ba9811fdbd834848ff56cb5aa21e]]></id>
+      <name><![CDATA[NOM_SI_EXT]]></name>
+      <description><![CDATA[@String(50)@ Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <size>50</size>
       <nullable>false</nullable>
     </attribute>
   </attributes>

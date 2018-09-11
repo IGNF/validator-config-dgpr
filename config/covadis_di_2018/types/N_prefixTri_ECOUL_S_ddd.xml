@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featureType>
+  <id><![CDATA[452cc881ce1c7f125a9fd7f0279f698a]]></id>
+  <typeName><![CDATA[N_prefixTri_ECOUL_S_ddd]]></typeName>
+  <description><![CDATA[]]></description>
+  <attributes>
+    <attribute>
+      <id><![CDATA[125611f20ad9e5fe67d024481e5778ad]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[5d59811b22b72a3d0a3b5b5965cd2c40]]></id>
+      <name><![CDATA[VITESSE]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <listOfValues>
+        <value><![CDATA[Fai]]></value>
+        <value><![CDATA[For]]></value>
+        <value><![CDATA[Mod]]></value>
+      </listOfValues>
+    </attribute>
+    <attribute>
+      <id><![CDATA[705634ca174d0f6e66e9ae28bc2d9b09]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Relation]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[ZE_[0-9]+$]]></regexp>
+      <id><![CDATA[abd8456397d3cd5f72d7542d7006a6a8]]></id>
+      <name><![CDATA[ID_ZONE]]></name>
+      <description><![CDATA[@String(30)@ COVADIS B1.2. - Identifiant de type ZE_[numero automatique]]]></description>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[b4ab3a4b52e51eab6f7edc9d9f99ac95]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[d1701e6a2d6d3d396b58627e97ddacba]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[f00009732f497c6a5aa41a2174453e61]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[T]]></value>
+        <value><![CDATA[F]]></value>
+      </listOfValues>
+    </attribute>
+  </attributes>
+</featureType>

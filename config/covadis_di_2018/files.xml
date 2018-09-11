@@ -1,181 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
-  <id><![CDATA[ac3077141d96daf171f3056ba0abaed1]]></id>
+  <id><![CDATA[06e3ab34a081844c0093634c5ce606a5]]></id>
   <name><![CDATA[covadis_di_2018]]></name>
   <files>
     <file>
-      <path><![CDATA[N_prefixTri_CARTE_INOND_S]]></path>
-      <id><![CDATA[0610f6c461da41d4dfe2f9ce58bbdbe7]]></id>
+      <path><![CDATA[N_.*_CARTE_INOND_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[5f0daee5fb14e15246bd3197a03d24f1]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_CARTE_INOND_S]]></name>
+      <name><![CDATA[N_prefixTri_CARTE_INOND_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_CARTE_RISQ_S]]></path>
-      <id><![CDATA[92b860608e87cb98562dfe56c3c5c778]]></id>
+      <path><![CDATA[N_.*_CARTE_RISQ_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[3711596caddd4e644bafa77527484b85]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_CARTE_RISQ_S]]></name>
+      <name><![CDATA[N_prefixTri_CARTE_RISQ_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_CHAMP_VIT_P]]></path>
-      <id><![CDATA[0cff73a1896c1a5027be34bac41c5e7b]]></id>
-      <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_CHAMP_VIT_P]]></name>
-      <mandatory><![CDATA[ERROR]]></mandatory>
-    </file>
-    <file>
-      <path><![CDATA[N_prefixTri_COMMUNE_S_ddd]]></path>
-      <id><![CDATA[420c70b41fa58c28d5560caea1eadb5a]]></id>
+      <path><![CDATA[N_.*_COMMUNE_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[8987a6a80eada9deb8497d57c743add2]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[N_prefixTri_COMMUNE_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_COTE_VIT_DEB_P]]></path>
-      <id><![CDATA[669fcd30a4a73ae4417490ad941e690b]]></id>
+      <path><![CDATA[N_.*_COTE_VIT_DEB_P_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[9e05a9b5af432961a7930e14167ecd0b]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_COTE_VIT_DEB_P]]></name>
+      <name><![CDATA[N_prefixTri_COTE_VIT_DEB_P_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ECOUL_S]]></path>
-      <id><![CDATA[3f5d64421697e8462f09696cd62b1703]]></id>
+      <path><![CDATA[N_.*_ECOUL_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[098c74f43a2af776d57fb95cd93ec8a5]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ECOUL_S]]></name>
+      <name><![CDATA[N_prefixTri_ECOUL_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_CRISE_L]]></path>
-      <id><![CDATA[e0fa89c425f5001efacb739767f2f6f7]]></id>
+      <path><![CDATA[N_.*_ENJEU_CRISE_L_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[57a92a37a326a26fa4df4fba17d7a7f3]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ENJEU_CRISE_L]]></name>
+      <name><![CDATA[N_prefixTri_ENJEU_CRISE_L_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_CRISE_P]]></path>
-      <id><![CDATA[34abd123eb2762a89d6e24fffade8c6b]]></id>
+      <path><![CDATA[N_.*_ENJEU_CRISE_P_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[d46b93d0c427497d94ad5f6c76b827c0]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ENJEU_CRISE_P]]></name>
+      <name><![CDATA[N_prefixTri_ENJEU_CRISE_P_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_DCE_S]]></path>
-      <id><![CDATA[41f3a2025d7abb541ac30d51a2219520]]></id>
+      <path><![CDATA[N_.*_ENJEU_DCE_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[8e360e1e3e4cc5726e6187cebb7f17b4]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ENJEU_DCE_S]]></name>
+      <name><![CDATA[N_prefixTri_ENJEU_DCE_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_ECO_S_ddd]]></path>
-      <id><![CDATA[0d4c8aefd0018285adfdb1c8fc7ac0fd]]></id>
+      <path><![CDATA[N_.*_ENJEU_ECO_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[1becf256ba86a00651959f21bf1bc13a]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[N_prefixTri_ENJEU_ECO_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_IPPC_P]]></path>
-      <id><![CDATA[a4500d5280388ef5d5a6fcea6c2fd729]]></id>
+      <path><![CDATA[N_.*_ENJEU_IPPC_P_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[ec65e5abc8df3d49962efade5e9fe054]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ENJEU_IPPC_P]]></name>
+      <name><![CDATA[N_prefixTri_ENJEU_IPPC_P_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_IPPC_P-symbol-svg]]></path>
-      <id><![CDATA[c63b0b085cf370788edfbc406b481239]]></id>
-      <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ENJEU_IPPC_P-symbol-svg]]></name>
-      <mandatory><![CDATA[ERROR]]></mandatory>
-    </file>
-    <file>
-      <path><![CDATA[N_prefixTri_ENJEU_PATRIM_P_ddd]]></path>
-      <id><![CDATA[0067ce7fae543d87c55f8d0507d0be96]]></id>
+      <path><![CDATA[N_.*_ENJEU_PATRIM_P_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[a07e54f4836e8b844a38d375ffeb4877]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[N_prefixTri_ENJEU_PATRIM_P_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_PATRIM_S_ddd]]></path>
-      <id><![CDATA[4f5ea85d11eaebf5008d762daa009dc8]]></id>
+      <path><![CDATA[N_.*_ENJEU_PATRIM_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[514afb1cccec081bebe8f507eca90a89]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[N_prefixTri_ENJEU_PATRIM_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_RAPPORT]]></path>
-      <id><![CDATA[b9c4094c026275eeaea64d06a716798d]]></id>
+      <path><![CDATA[N_.*_ENJEU_RAPPORT_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[bc7a211a30020b031e36b96e931b5801]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ENJEU_RAPPORT]]></name>
+      <name><![CDATA[N_prefixTri_ENJEU_RAPPORT_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ENJEU_STEU_P]]></path>
-      <id><![CDATA[85aa3b6109f47ea03c305f13cf2eda94]]></id>
+      <path><![CDATA[N_.*_ENJEU_STEU_P_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[e05e942af0bdc6aefa44b9ccca96b5ea]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ENJEU_STEU_P]]></name>
+      <name><![CDATA[N_prefixTri_ENJEU_STEU_P_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_INONDABLE_S]]></path>
-      <id><![CDATA[8a489c7e16ca9232d6c2be6771f0b740]]></id>
+      <path><![CDATA[N_.*_INONDABLE_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[6d2f1b32cec9491c23782f0a7622bf45]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_INONDABLE_S]]></name>
+      <name><![CDATA[N_prefixTri_INONDABLE_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ISO_COTE_L]]></path>
-      <id><![CDATA[53b6dac535ca1ed7351a2f88f9ea3350]]></id>
+      <path><![CDATA[N_.*_ISO_COTE_L_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[538a4dcce174698c49bc9c5babea3cca]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ISO_COTE_L]]></name>
+      <name><![CDATA[N_prefixTri_ISO_COTE_L_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ISO_DEB_S]]></path>
-      <id><![CDATA[d5a4bd73fd5e396d02091d8abebf8941]]></id>
+      <path><![CDATA[N_.*_ISO_DEB_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[ad7a7b5163992bdb0258aab621893ab1]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ISO_DEB_S]]></name>
+      <name><![CDATA[N_prefixTri_ISO_DEB_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_ISO_HT_S]]></path>
-      <id><![CDATA[13ffdbb2c2e9f0369faaf31dba18ed83]]></id>
+      <path><![CDATA[N_.*_ISO_HT_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[dc916a1d8bb0a17d4e90dbe9648f58d0]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_ISO_HT_S]]></name>
+      <name><![CDATA[N_prefixTri_ISO_HT_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_OUV_PROTEC_L]]></path>
-      <id><![CDATA[5b819341649fac1db19733ff1e4f1d8e]]></id>
+      <path><![CDATA[N_.*_OUV_PROTEC_L_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[a58a5f2297bd6bdee4bc27921a837fe3]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_OUV_PROTEC_L]]></name>
+      <name><![CDATA[N_prefixTri_OUV_PROTEC_L_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_QUARTIER_S]]></path>
-      <id><![CDATA[335e694d98b95678f3592d836902717c]]></id>
+      <path><![CDATA[N_.*_QUARTIER_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[2583a247f757e24174dcef725c426a28]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_QUARTIER_S]]></name>
+      <name><![CDATA[N_prefixTri_QUARTIER_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_REL_HYDRO_INOND]]></path>
-      <id><![CDATA[941bb88c14c287bdc54e2e870710724b]]></id>
+      <path><![CDATA[N_.*_REL_HYDRO_INOND_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[ff90a8f63a2d3cc2d6306f6467fc0974]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_REL_HYDRO_INOND]]></name>
+      <name><![CDATA[N_prefixTri_REL_HYDRO_INOND_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_SOUST_INOND_S]]></path>
-      <id><![CDATA[f3b6776dd2fcf8feab072607165a360a]]></id>
+      <path><![CDATA[N_.*_SOUST_INOND_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[25365be4d1c7d0ddda7087fb318d5173]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_SOUST_INOND_S]]></name>
+      <name><![CDATA[N_prefixTri_SOUST_INOND_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_prefixTri_TRI_S]]></path>
-      <id><![CDATA[4d47392a6bf03a653d22dbe6d742ec2b]]></id>
+      <path><![CDATA[N_.*_SURALEA_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[bda76650c5348bfd0ce3046185e1cfb7]]></id>
       <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_TRI_S]]></name>
+      <name><![CDATA[N_prefixTri_SURALEA_S_ddd]]></name>
+      <mandatory><![CDATA[ERROR]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[N_.*_TRI_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <id><![CDATA[71b02bce0240ece31e759fa94b195b36]]></id>
+      <type><![CDATA[table]]></type>
+      <name><![CDATA[N_prefixTri_TRI_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
   </files>

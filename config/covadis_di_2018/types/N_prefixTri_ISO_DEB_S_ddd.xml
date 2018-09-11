@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featureType>
+  <id><![CDATA[2ddbfc8f60731f984bb02245f7de90bd]]></id>
+  <typeName><![CDATA[N_prefixTri_ISO_DEB_S_ddd]]></typeName>
+  <description><![CDATA[]]></description>
+  <attributes>
+    <attribute>
+      <id><![CDATA[028236cea084383421b8f7bfe89fe9ae]]></id>
+      <name><![CDATA[DEBLIN_MAX]]></name>
+      <description><![CDATA[@Float@ Exprimé en m²/s - DEBLIN_MAX >= DEBLIN_MIN]]></description>
+      <type><![CDATA[Float]]></type>
+      <nullable>true</nullable>
+      <constraint><![CDATA[ DEBLIN_MAX= NULL  OR   DEBLIN_MAX >=  DEBLIN_MIN]]></constraint>
+    </attribute>
+    <attribute>
+      <id><![CDATA[039ff9b5691222521e1a07dbbe95ee0d]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[62a22acfaf58d0f8363adfc17f97559f]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[8a75d5e5b4f7d9854161995d6e52ba24]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[ZCD_[0-9]+$]]></regexp>
+      <id><![CDATA[9fdfa66e8631e55413fa727a840825f4]]></id>
+      <name><![CDATA[ID_ZONE]]></name>
+      <description><![CDATA[@String(30)@ COVADIS B1.2. - Identifiant de type ZCD_'[numero automatique]']]></description>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[a00b187d17b555514638979dc3651d06]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA['T']]></value>
+        <value><![CDATA['F']]></value>
+      </listOfValues>
+    </attribute>
+    <attribute>
+      <id><![CDATA[a15877b73bb1383de6683eca70fce595]]></id>
+      <name><![CDATA[DEBLIN_MIN]]></name>
+      <description><![CDATA[@Float@ Valeur vide interdite
+- Exprimé en m²/s
+- Ne peut pas être négative]]></description>
+      <type><![CDATA[Float]]></type>
+      <nullable>false</nullable>
+      <constraint><![CDATA[DEBLIN_MIN >= 0]]></constraint>
+    </attribute>
+    <attribute>
+      <id><![CDATA[cfc74de0bf9f99e1aa3ba9b72b69b630]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Relation]]></type>
+      <nullable>true</nullable>
+    </attribute>
+  </attributes>
+</featureType>
