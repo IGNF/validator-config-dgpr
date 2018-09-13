@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[452cc881ce1c7f125a9fd7f0279f698a]]></id>
+  <id><![CDATA[defbb7349b763a7c149c24c6de54b475]]></id>
   <typeName><![CDATA[N_prefixTri_ECOUL_S_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[125611f20ad9e5fe67d024481e5778ad]]></id>
-      <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[5d59811b22b72a3d0a3b5b5965cd2c40]]></id>
-      <name><![CDATA[VITESSE]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[Fai]]></value>
-        <value><![CDATA[For]]></value>
-        <value><![CDATA[Mod]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[705634ca174d0f6e66e9ae28bc2d9b09]]></id>
+      <id><![CDATA[698ca1cab65a1749289f5888acafa536]]></id>
       <name><![CDATA[ID_S_INOND]]></name>
       <description><![CDATA[]]></description>
-      <type><![CDATA[Relation]]></type>
+      <type><![CDATA[String]]></type>
       <nullable>true</nullable>
+      <reference><![CDATA[N_prefixTri_INONDABLE_S_ddd.SCENARIO]]></reference>
+    </attribute>
+    <attribute>
+      <id><![CDATA[7cd706c002dc66ff04f4af36c812cfdd]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <regexp><![CDATA[ZE_[0-9]+$]]></regexp>
-      <id><![CDATA[abd8456397d3cd5f72d7542d7006a6a8]]></id>
+      <id><![CDATA[866fa25b99610f63e5024572082bed42]]></id>
       <name><![CDATA[ID_ZONE]]></name>
       <description><![CDATA[@String(30)@ COVADIS B1.2. - Identifiant de type ZE_[numero automatique]]]></description>
       <type><![CDATA[String]]></type>
@@ -40,20 +28,28 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[b4ab3a4b52e51eab6f7edc9d9f99ac95]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPolygon]]></type>
+      <id><![CDATA[91edf6c300db909bd67febe64203fb52]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[cb2e35a8d39f0e9ea046197f31bc6e92]]></id>
+      <name><![CDATA[VITESSE]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[d1701e6a2d6d3d396b58627e97ddacba]]></id>
+      <id><![CDATA[d95da82323b6449e89f70ba6827a7835]]></id>
       <name><![CDATA[DATENTREE]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[f00009732f497c6a5aa41a2174453e61]]></id>
+      <id><![CDATA[f5619cd84ef5e911ee01166f03c716cc]]></id>
       <name><![CDATA[EST_REF]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>

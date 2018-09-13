@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[c856c6ff414643faa941017e62c40668]]></id>
+  <id><![CDATA[b81616b7477c3f79d14d69d7cf285ebb]]></id>
   <typeName><![CDATA[N_prefixTri_SURALEA_S_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[01a3b3c87c68884c5fdbf7689b1b7d12]]></id>
-      <name><![CDATA[DATENTREE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[25f217e14ee4b11583e30573f95a4e44]]></id>
-      <name><![CDATA[ID_TRI]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Relation]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[2a3f0853f162b7d971d9ce35c964e768]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPolygon]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[41164bed27a660a3f1420a303194a2a6]]></id>
+      <id><![CDATA[341fa97c1478f4719f97f97f0579f5b0]]></id>
       <name><![CDATA[SCENARIO]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[04Fai]]></value>
-        <value><![CDATA[01For]]></value>
-        <value><![CDATA[02Moy]]></value>
-        <value><![CDATA[03Mcc]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[4c8c4e66c9181ebcb48c0d81efb51349]]></id>
+      <id><![CDATA[54fffd95b049a371191d41fadec52bdc]]></id>
       <name><![CDATA[DATSORTIE]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
@@ -46,7 +20,7 @@
     </attribute>
     <attribute>
       <regexp><![CDATA[ZSA_[0-9]+$]]></regexp>
-      <id><![CDATA[adcbf1f0754c8f915c9340b3e288f0f8]]></id>
+      <id><![CDATA[87462ddf20d8960d6e64fff6232baac3]]></id>
       <name><![CDATA[ID_ZONE]]></name>
       <description><![CDATA[@String(30)@ COVADIS B1.2. - Identifiant de type ZSA_[numero]]]></description>
       <type><![CDATA[String]]></type>
@@ -54,7 +28,7 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[d33dda21859b0bf7db3aedd375b9990a]]></id>
+      <id><![CDATA[aed7ff0cdfdd18ae21ae98cc199af8a3]]></id>
       <name><![CDATA[EST_REF]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
@@ -63,6 +37,27 @@
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
+    </attribute>
+    <attribute>
+      <id><![CDATA[cbb935ade460ab68d48c6227eac4e7d6]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[cc8b83ef54d1f3cd8da54d21fa71a715]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[ed442142dec842709ee0e742f96c4ae7]]></id>
+      <name><![CDATA[ID_TRI]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
     </attribute>
   </attributes>
 </featureType>

@@ -1,75 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[ebf0d042e0b762b61cf4beec91da2705]]></id>
+  <id><![CDATA[bc5e48494e73f7d374d5a1792692a763]]></id>
   <typeName><![CDATA[N_prefixTri_ISO_COTE_L_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[10f0e6e4ee7806cd9968356342f0fc52]]></id>
-      <name><![CDATA[TYP_INOND]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[01]]></value>
-        <value><![CDATA[04]]></value>
-        <value><![CDATA[02]]></value>
-        <value><![CDATA[03]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <regexp><![CDATA[LIC_[0-9]+$]]></regexp>
-      <id><![CDATA[1bc10662939bb70f3161e87bd6a09336]]></id>
-      <name><![CDATA[ID_LIGNE]]></name>
-      <description><![CDATA[@String(30)@ COVADIS B1.2. - Identifiant de type 'LIC_[numero automatique]']]></description>
-      <type><![CDATA[String]]></type>
-      <size>30</size>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[34fd5cc3022396a990fe82bbb3a5fed6]]></id>
-      <name><![CDATA[ID_S_INOND]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Relation]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[5741e97c85f815d98887f5842536f980]]></id>
-      <name><![CDATA[DATENTREE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[7592ada69933adfe25b915e58e92652b]]></id>
-      <name><![CDATA[SCENARIO]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[04Fai]]></value>
-        <value><![CDATA[01For]]></value>
-        <value><![CDATA[02Moy]]></value>
-        <value><![CDATA[03Mcc]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[7e907d787b2e714ae12fcbb2590d2082]]></id>
-      <name><![CDATA[COURS_DEAU]]></name>
-      <description><![CDATA[@String(127)@]]></description>
-      <type><![CDATA[String]]></type>
-      <size>127</size>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[8a00519f7642a52b1ff440bb2e403f8f]]></id>
-      <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[93ee09f9e894c6a0c62572cb5a3cb79f]]></id>
+      <id><![CDATA[1479f16b0a2ead630ec713ac0d5bbf75]]></id>
       <name><![CDATA[EST_REF]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
@@ -80,17 +16,70 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[d2334ab16c9bf7661d8d952e762add77]]></id>
-      <name><![CDATA[COTE]]></name>
-      <description><![CDATA[@Float@ Valeur vide interdite]]></description>
-      <type><![CDATA[Float]]></type>
+      <id><![CDATA[182741f0a5adf0755846bcf9f6aa7bab]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[LIC_[0-9]+$]]></regexp>
+      <id><![CDATA[464c3b581b965a8eee2e1b2cbe942a19]]></id>
+      <name><![CDATA[ID_LIGNE]]></name>
+      <description><![CDATA[@String(30)@ COVADIS B1.2. - Identifiant de type 'LIC_[numero automatique]']]></description>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[f3535714be7fa61b1d58b26fc1955f4e]]></id>
+      <id><![CDATA[4a2aaf19644b2f32b84d91a041548a53]]></id>
+      <name><![CDATA[COTE]]></name>
+      <description><![CDATA[@Float@ Valeur vide interdite]]></description>
+      <type><![CDATA[Double]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[4b89e75bf59a1d604d5265a9862d8f0a]]></id>
+      <name><![CDATA[COURS_DEAU]]></name>
+      <description><![CDATA[@String(127)@]]></description>
+      <type><![CDATA[String]]></type>
+      <size>127</size>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[5827f830459c833e6865a164d1233f15]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[879e6b983374dc9feff0bb2c0391aadd]]></id>
+      <name><![CDATA[SCENARIO]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[a3fbf4974fc9e6d6c91fce2073289592]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <reference><![CDATA[N_prefixTri_INONDABLE_S_ddd.ID_S_INOND]]></reference>
+    </attribute>
+    <attribute>
+      <id><![CDATA[f4a0dbd22b8f7f4fac34e0ed9206e239]]></id>
+      <name><![CDATA[TYP_INOND]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[feeee792c64181b244d0af2c371ea5a1]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
     </attribute>
   </attributes>
 </featureType>

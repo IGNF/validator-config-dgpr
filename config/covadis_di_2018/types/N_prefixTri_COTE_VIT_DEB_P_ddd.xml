@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[e1f166f093919668e9156ca7a79f300d]]></id>
+  <id><![CDATA[3cffc6b2c294772587058dcf5b6780f4]]></id>
   <typeName><![CDATA[N_prefixTri_COTE_VIT_DEB_P_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[085f888a9130b7ea409387378e11d51e]]></id>
+      <id><![CDATA[003aea53b7b857f8608c43105a3cf5d0]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPoint]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[0ef104e9ffe7db4fc60cd298f1cc8a5a]]></id>
       <name><![CDATA[AZIMUTH]]></name>
       <description><![CDATA[@Float@ Si la vitesse ou le débit linéique est renseigné, alors l’azimuth doit aussi être renseigné.]]></description>
-      <type><![CDATA[Float]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>true</nullable>
       <constraint><![CDATA[("AZIMUTH" IS NOT NULL AND ( "VITESSE" IS NOT NULL OR "DEBLIN" IS NOT NULL ) ) OR ("AZIMUTH" IS NULL AND "VITESSE" IS NULL AND "DEBLIN" IS NULL)]]></constraint>
     </attribute>
     <attribute>
-      <id><![CDATA[1b22b8355a939650f4fce155c7eecb9d]]></id>
-      <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
       <regexp><![CDATA[PRE_[0-9]+$]]></regexp>
-      <id><![CDATA[1f0cd32f038bb2dac9847eb1a1dae747]]></id>
+      <id><![CDATA[471d1682425fd947c1b8ae75bfca033e]]></id>
       <name><![CDATA[ID_POINT]]></name>
       <description><![CDATA[@String(30)@ COVADIS B1.2. - Identifiant de type 'PRE_[numero automatique]']]></description>
       <type><![CDATA[String]]></type>
@@ -29,7 +28,7 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[2fa108bdf58e2cd92be9fce2668cff9c]]></id>
+      <id><![CDATA[60d7294ca0b83eb708d51fd058e17037]]></id>
       <name><![CDATA[EST_REF]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
@@ -40,53 +39,55 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[348b46e39d5e9931ee79d8fc5bda0cbc]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPoint]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[8733881c1e79287c5ea237b1b181aea8]]></id>
-      <name><![CDATA[VITESSE]]></name>
-      <description><![CDATA[@Float@]]></description>
-      <type><![CDATA[Float]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[8837a0c9ac83e4dab3c935d9cdb23fb5]]></id>
-      <name><![CDATA[ID_S_INOND]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Relation]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[909fd7c292374dbe3c457797a0d03591]]></id>
+      <id><![CDATA[7e86fb54bdb882f0b5570fb10150f68e]]></id>
       <name><![CDATA[COTE]]></name>
       <description><![CDATA[@Float@]]></description>
-      <type><![CDATA[Float]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[bafdf5a687a0964dd44fa00040fd7f34]]></id>
+      <id><![CDATA[9ac0e9234d8385ea74b4e77e3d6f188a]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[cdbee9ece239249258686db752f9aec1]]></id>
+      <name><![CDATA[DEBLIN]]></name>
+      <description><![CDATA[@Float@ Ne peut pas être négative]]></description>
+      <type><![CDATA[Double]]></type>
+      <nullable>true</nullable>
+      <constraint><![CDATA[DEBLIN >= 0 OR DEBLIN IS NULL]]></constraint>
+    </attribute>
+    <attribute>
+      <id><![CDATA[e1c1707e9f821e37223fea14da779a39]]></id>
+      <name><![CDATA[VITESSE]]></name>
+      <description><![CDATA[@Float@]]></description>
+      <type><![CDATA[Double]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[ecfd065564fea866d98caca88756f144]]></id>
       <name><![CDATA[DATOBSERV]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[bc72841f3a139ec3573d41f2505df4f2]]></id>
+      <id><![CDATA[f8999e1ea8e761c8825acaf58d8e750c]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <reference><![CDATA[N_prefixTri_INONDABLE_S_ddd.ID_S_INOND]]></reference>
+    </attribute>
+    <attribute>
+      <id><![CDATA[f8cea9211d05f101e4b0e2bb5fdf6358]]></id>
       <name><![CDATA[DATENTREE]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[f05e3a1aa64d2b34ab3678c60fd5c097]]></id>
-      <name><![CDATA[DEBLIN]]></name>
-      <description><![CDATA[@Float@ Ne peut pas être négative]]></description>
-      <type><![CDATA[Float]]></type>
-      <nullable>true</nullable>
-      <constraint><![CDATA[DEBLIN >= 0 OR DEBLIN IS NULL]]></constraint>
     </attribute>
   </attributes>
 </featureType>

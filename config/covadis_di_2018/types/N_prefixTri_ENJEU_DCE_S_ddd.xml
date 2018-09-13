@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[f2bcfb9c7501c50aacc415ce7dfa640d]]></id>
+  <id><![CDATA[d92d6f1665e62bc9cadadd43925c02fb]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_DCE_S_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[6f2af28cbb693561484957503a502873]]></id>
-      <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[727deb7179da24515626136ce11d8503]]></id>
-      <name><![CDATA[PA_TYPE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[]]></value>
-        <value><![CDATA[BA]]></value>
-        <value><![CDATA[A7]]></value>
-        <value><![CDATA[HA]]></value>
-        <value><![CDATA[BI]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[8a210297b76ab6f0342232aaf599dfb0]]></id>
+      <id><![CDATA[185b43bf05bfdbb1b44808433b04971a]]></id>
       <name><![CDATA[EU_CD_PA]]></name>
       <description><![CDATA[@String(30)@]]></description>
       <type><![CDATA[String]]></type>
@@ -34,7 +13,14 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[b31dde56775293e5b4efce3dd86ae277]]></id>
+      <id><![CDATA[3fce5a9a8d8d6289366b4a65e625f995]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[6257fe4732d3671d4c9c77ee8288e966]]></id>
       <name><![CDATA[EST_REF]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
@@ -45,7 +31,14 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[f2b57263e4bf94299d64e855c7c201e2]]></id>
+      <id><![CDATA[c2854ca8b3beb4542030c6c2419bae49]]></id>
+      <name><![CDATA[PA_TYPE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[d3ad9161d05ce585cd8e4ffc46079adb]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>

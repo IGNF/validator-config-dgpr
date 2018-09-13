@@ -1,51 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[3975c9f5918d7201702b516b68cadbd1]]></id>
+  <id><![CDATA[8dcc31fea5e7e98fb782c2c2b5caba75]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_RAPPORT_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[0ec1e92b32af317f0318955c1f9698e6]]></id>
-      <name><![CDATA[EMPLOI_MIN]]></name>
-      <description><![CDATA[@Integer@ Valeur vide interdite]]></description>
-      <type><![CDATA[Integer]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[28c37b7b4d2692f4c31ec5415af51b84]]></id>
-      <name><![CDATA[SCENARIO]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[04Fai]]></value>
-        <value><![CDATA[01For]]></value>
-        <value><![CDATA[02Moy]]></value>
-        <value><![CDATA[03Mcc]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[645a032db10daee11437a27043ee29ee]]></id>
+      <id><![CDATA[451df5c313c84b633a4f6044518fca32]]></id>
       <name><![CDATA[DATENTREE]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[70cc28b7c55ebd1a664e6f876ecf1744]]></id>
+      <id><![CDATA[5543d5122d86664ad639c1f9635f8224]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[631f21c9df59c3b6764016e7d74ee04b]]></id>
       <name><![CDATA[TYP_INOND]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[01]]></value>
-        <value><![CDATA[04]]></value>
-        <value><![CDATA[02]]></value>
-        <value><![CDATA[03]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[9eae7e7c06579811828951775d5ba6bf]]></id>
+      <id><![CDATA[70d842e00eb3e7d92cdf94b4c1fcbef9]]></id>
+      <name><![CDATA[EMPLOI_MIN]]></name>
+      <description><![CDATA[@Integer@ Valeur vide interdite]]></description>
+      <type><![CDATA[Integer]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[79dfbcfa80c5f9572b96bc6e194f2a00]]></id>
+      <name><![CDATA[SCENARIO]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[83a63efca4590a684e275965070155e9]]></id>
+      <name><![CDATA[HAB_PERM]]></name>
+      <description><![CDATA[@Integer@ Valeur vide interdite]]></description>
+      <type><![CDATA[Integer]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[be663f6e90c0a0cf33bb0b1f8ee26398]]></id>
+      <name><![CDATA[EMPLOI_MAX]]></name>
+      <description><![CDATA[@Integer@]]></description>
+      <type><![CDATA[Integer]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[be7988278325bc79bf9e6702d30e5898]]></id>
       <name><![CDATA[ID]]></name>
       <description><![CDATA[@String(50)@]]></description>
       <type><![CDATA[String]]></type>
@@ -53,14 +62,7 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[b6aee940f1aba366d6c30133204b0e32]]></id>
-      <name><![CDATA[HAB_PERM]]></name>
-      <description><![CDATA[@Integer@ Valeur vide interdite]]></description>
-      <type><![CDATA[Integer]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[b7b09d77a673f99d3fe7d990275eb45f]]></id>
+      <id><![CDATA[d6838bc947468f16c9bc53d1fe9a5306]]></id>
       <name><![CDATA[EST_REF]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
@@ -69,20 +71,6 @@
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[cf4c90b8fb47892eb232476bbe4e6881]]></id>
-      <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[e30075ec195a1b1795f33a24c3dd1cf6]]></id>
-      <name><![CDATA[EMPLOI_MAX]]></name>
-      <description><![CDATA[@Integer@]]></description>
-      <type><![CDATA[Integer]]></type>
-      <nullable>true</nullable>
     </attribute>
   </attributes>
 </featureType>

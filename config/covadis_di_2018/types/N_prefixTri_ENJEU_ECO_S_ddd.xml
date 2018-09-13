@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[b35390962f51b518060b3c2fa74cf8f9]]></id>
+  <id><![CDATA[d9ffcfd05a14bedfdf7d49e9cfc56552]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_ECO_S_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[108fdf3ab265cba83a322f42a08c440b]]></id>
-      <name><![CDATA[NOM_SI_EXT]]></name>
-      <description><![CDATA[@String(50)@ Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <size>50</size>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[1c4d3a86d1eab46c1486c24988ca409c]]></id>
-      <name><![CDATA[TYPE_ACTIV]]></name>
+      <id><![CDATA[0ebdfb6bb2b3acc31c2b1299ce77ef4f]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
       <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[03]]></value>
-        <value><![CDATA[04]]></value>
-        <value><![CDATA[99]]></value>
-        <value><![CDATA[07]]></value>
-        <value><![CDATA[02]]></value>
-        <value><![CDATA[01]]></value>
-        <value><![CDATA[06]]></value>
-        <value><![CDATA[05]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
       <regexp><![CDATA[^[0-9]{4}[a-z]*$]]></regexp>
-      <id><![CDATA[71f6af96487de8ac8f1cf31093967f49]]></id>
+      <id><![CDATA[210390cdd0c4ab11c097b8642cf301ee]]></id>
       <name><![CDATA[CODCOVADIS]]></name>
       <description><![CDATA[@String(5)@ Cf. nomenclature COVADIS standard PPRN (annexe D.1)]]></description>
       <type><![CDATA[String]]></type>
@@ -39,22 +21,20 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[8afb1b39e98287186516c01e5437d7d5]]></id>
-      <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[@String(10)@]]></description>
-      <type><![CDATA[String]]></type>
-      <size>10</size>
-      <nullable>true</nullable>
+      <id><![CDATA[48d3408802a573bcb2e2a06d1ff47004]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[c504e1a0593f82fe40042db7996c7501]]></id>
-      <name><![CDATA[DATIMPORT]]></name>
+      <id><![CDATA[4d672f302ca0099ddacc1e0cc5205bf7]]></id>
+      <name><![CDATA[TYPE_ACTIV]]></name>
       <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
+      <type><![CDATA[String]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[d916f6a2a1214b2628d2bb5a80506414]]></id>
+      <id><![CDATA[5d0b3d081dbd215fe76a86435c121266]]></id>
       <name><![CDATA[EST_REF]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
@@ -65,7 +45,15 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[e74da7c33dc3b7631b7574eb11bb3f0d]]></id>
+      <id><![CDATA[79614e8dd7eb817cd30af7a0899d3d69]]></id>
+      <name><![CDATA[VER_SI_EXT]]></name>
+      <description><![CDATA[@String(10)@]]></description>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[9a2e2e38f0865e9c7d547ee7e140f1e5]]></id>
       <name><![CDATA[ID_SI_EXT]]></name>
       <description><![CDATA[@String(50)@ Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
@@ -73,9 +61,11 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[e77c90297b3a25263631ced4ac951c34]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPolygon]]></type>
+      <id><![CDATA[a7883c7c91079dee696425bc6a8e9cfe]]></id>
+      <name><![CDATA[NOM_SI_EXT]]></name>
+      <description><![CDATA[@String(50)@ Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <size>50</size>
       <nullable>false</nullable>
     </attribute>
   </attributes>

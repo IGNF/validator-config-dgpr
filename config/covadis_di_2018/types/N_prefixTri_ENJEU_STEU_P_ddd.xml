@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[04bc608c60a49b82cb28cadcfb80e672]]></id>
+  <id><![CDATA[58c5fd6959a47d7e3ddaa0cace57ad45]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_STEU_P_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[7e16faded5ee9dca38f6ac2ddcb67de6]]></id>
+      <id><![CDATA[42fae2c6b83785f1ff62fe71703d2ed8]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPoint]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[4807c6a9d79b00521c0af9d42063c925]]></id>
       <name><![CDATA[CAPACITE_N]]></name>
       <description><![CDATA[@Integer@]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[86bd7b52800e9ac06738925208e00293]]></id>
-      <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[8f7912e12af26dcf6313ff2db4502476]]></id>
+      <id><![CDATA[57a067177e728c3a104330fd1baabbfc]]></id>
       <name><![CDATA[EST_REF]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
@@ -30,7 +29,7 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[b0fa375ed430cfa10ed5e5082f46a934]]></id>
+      <id><![CDATA[6db2cbcb9caca19d70f7049a8e63c418]]></id>
       <name><![CDATA[CODE_STEU]]></name>
       <description><![CDATA[@String(30)@]]></description>
       <type><![CDATA[String]]></type>
@@ -38,10 +37,11 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[b7058810f5ba6b872686954c4d6b9613]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPoint]]></type>
-      <nullable>false</nullable>
+      <id><![CDATA[f7324a0b6c74be28351ad7492f2a2941]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
     </attribute>
   </attributes>
 </featureType>

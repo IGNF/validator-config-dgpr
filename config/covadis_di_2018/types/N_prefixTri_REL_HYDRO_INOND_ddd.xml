@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[17798134679bbb55c69ddf3818ea21d8]]></id>
+  <id><![CDATA[77786da19608b484fd944c08e73b9262]]></id>
   <typeName><![CDATA[N_prefixTri_REL_HYDRO_INOND_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[0b9bcee2774d1bd9c93ae7abb892c3ba]]></id>
+      <id><![CDATA[83fe30ce056e64650e0166b0892e96ad]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <reference><![CDATA[N_prefixTri_INONDABLE_S_ddd.ID_S_INOND]]></reference>
+    </attribute>
+    <attribute>
+      <id><![CDATA[c751a8aa4ce93e4fb544d6ab34820fbc]]></id>
       <name><![CDATA[CODE_EH]]></name>
       <description><![CDATA[@String(10)@]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[7dfc7d9e0b41747c8ed40cdb25fdfd45]]></id>
-      <name><![CDATA[ID_S_INOND]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Relation]]></type>
       <nullable>true</nullable>
     </attribute>
   </attributes>

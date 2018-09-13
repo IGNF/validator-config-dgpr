@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[83a7898895951a7d49a691de14e0664f]]></id>
+  <id><![CDATA[5868cc059ebbf05dcecad3e7cfeaa685]]></id>
   <typeName><![CDATA[N_prefixTri_TRI_S_ddd]]></typeName>
   <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[0fdec2e0c300840861d73434447fb36f]]></id>
-      <name><![CDATA[DATENTREE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[25634764694427c989662be20141d4b6]]></id>
-      <name><![CDATA[HAB_PERM]]></name>
+      <id><![CDATA[3d754af21f9c3f2803396687a1fe51e3]]></id>
+      <name><![CDATA[TX_HAB_SAI]]></name>
       <description><![CDATA[@Integer@]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[52cab19bd88616a713b3d68571c41aa1]]></id>
-      <name><![CDATA[HAB_SAISON]]></name>
-      <description><![CDATA[@Integer@]]></description>
-      <type><![CDATA[Integer]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <regexp><![CDATA[^FR[A-Z0-9]{1,4}_TRI_[A-Z0-9]{1,33}$]]></regexp>
-      <id><![CDATA[6bf087f0d83de354d4b62dc617bfcf7f]]></id>
-      <name><![CDATA[ID_TRI]]></name>
-      <description><![CDATA[@String(50)@ COVADIS B1.2. - Identifiant de type [Code EUUOM Bassin DCE]_TRI_[Nom court TRI]. Exemple : "FRD_TRI_LYON"]]></description>
-      <type><![CDATA[String]]></type>
-      <size>50</size>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[7de5df197c9dac1438fc3a8a3be0755a]]></id>
+      <id><![CDATA[56aa07516d1316f5618011b1352223bb]]></id>
       <name><![CDATA[DATSORTIE]]></name>
       <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[867e16ba4305763c8e58f098d5db4867]]></id>
+      <id><![CDATA[680c29ea7d6f599db20a2b073203b648]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[c6c3edbff43b93aa392273a94c678aaf]]></id>
+      <name><![CDATA[HAB_PERM]]></name>
+      <description><![CDATA[@Integer@]]></description>
+      <type><![CDATA[Integer]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[d82ea612544f7feada7120e8343070bd]]></id>
       <name><![CDATA[NOM]]></name>
       <description><![CDATA[@String(254)@ Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
@@ -50,17 +41,26 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[9710650fb1ff27edbf937db8ec6e1583]]></id>
-      <name><![CDATA[TX_HAB_SAI]]></name>
-      <description><![CDATA[@Integer@]]></description>
-      <type><![CDATA[Integer]]></type>
-      <nullable>true</nullable>
+      <regexp><![CDATA[^FR[A-Z0-9]{1,4}_TRI_[A-Z0-9]{1,33}$]]></regexp>
+      <id><![CDATA[e0ad5cda32a4c543abb86b164ed3a4e6]]></id>
+      <name><![CDATA[ID_TRI]]></name>
+      <description><![CDATA[@String(50)@ COVADIS B1.2. - Identifiant de type [Code EUUOM Bassin DCE]_TRI_[Nom court TRI]. Exemple : "FRD_TRI_LYON"]]></description>
+      <type><![CDATA[String]]></type>
+      <size>50</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[e0290bd37ab20a9e188b6eed112f35a2]]></id>
+      <id><![CDATA[f4eda038c400097f2b7ee53f551132b9]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[fb2a27e9339cfbbdb6261a51015e6b9e]]></id>
+      <name><![CDATA[HAB_SAISON]]></name>
+      <description><![CDATA[@Integer@]]></description>
+      <type><![CDATA[Integer]]></type>
+      <nullable>true</nullable>
     </attribute>
   </attributes>
 </featureType>
