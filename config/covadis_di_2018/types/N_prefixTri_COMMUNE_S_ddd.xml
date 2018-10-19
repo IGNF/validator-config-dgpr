@@ -2,30 +2,24 @@
 <featureType>
   <id><![CDATA[905ce08738b15bfad243eb7b4acacb13]]></id>
   <typeName><![CDATA[N_prefixTri_COMMUNE_S_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <id><![CDATA[068239685d7e936ad3946ef26dec8acd]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[2cfdf6e9615d91d2957b7bbf5439fa99]]></id>
       <name><![CDATA[DATENTREE]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[68a8d8f4cde7831125c09db4ebaccdeb]]></id>
       <name><![CDATA[HAB_SAISON]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[80b39af78bcd90ec5908810f757ee41e]]></id>
@@ -34,15 +28,13 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifiant>true</identifiant>
+      <identifier>true</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[868cc9156d6b06d84760e5f984d2dec4]]></id>
       <name><![CDATA[ANNEE_COG]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <regexp><![CDATA[^[0-9]{5}$]]></regexp>
@@ -52,25 +44,20 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[9a861e718df3c93ebb36394efc007c77]]></id>
       <name><![CDATA[NOM_COM]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>80</size>
       <nullable>true</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[9fe90ae58218cc9273df425417480890]]></id>
       <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[b608c416386754dbbd9885da977d4047]]></id>
@@ -79,7 +66,6 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[cf8b81e7a14783a7364aa2cf595a933a]]></id>
@@ -87,24 +73,19 @@
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>false</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[ddd6b9153a3256a66edcd47b5140d71d]]></id>
       <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifiant>false</identifiant>
     </attribute>
     <attribute>
       <id><![CDATA[fa104e71de0394f7822240b664f78631]]></id>
       <name><![CDATA[TX_HAB_SAI]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
       <constraint><![CDATA[TX_HAB_SAI >= 0 AND  TX_HAB_SAI <= 100]]></constraint>
-      <identifiant>false</identifiant>
     </attribute>
   </attributes>
 </featureType>

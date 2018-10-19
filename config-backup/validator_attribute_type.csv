@@ -1,4 +1,4 @@
-id,feature_type_id,name,description,type,size,nullable,list_of_values,regexp,attribute_constraint,feature_reference,is_identifiant
+id,feature_type_id,name,description,type,size,nullable,list_of_values,regexp,attribute_constraint,feature_reference,is_identifier
 0793957a2a40561c18e5c928a6dc9aef,0d478366425a74cf410f970932a651be,ID_S_INOND,,String,,1,,,,N_prefixTri_INONDABLE_S_ddd.SCENARIO,
 4b12aec576e612e9f30d1729921fe617,0d478366425a74cf410f970932a651be,VITESSE,"Valeur vide interdite",String,,,,,,,
 6e0a0d4bab9756935c99e15bd6cc82b8,0d478366425a74cf410f970932a651be,DATSORTIE,,Date,,1,,,,,
