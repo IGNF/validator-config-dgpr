@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[212463c8b80b0857f52e4231497cc338]]></id>
+  <id><![CDATA[dcf9971f7202863bca40b622a68d7879]]></id>
   <typeName><![CDATA[N_prefixTri_CHAMP_VIT_P_ddd]]></typeName>
+  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[0a6d579eeacb41abccadc091e32ac466]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPoint]]></type>
+      <id><![CDATA[06692ba104c313063e2e6a9f007f0034]]></id>
+      <name><![CDATA[ID_TRI]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
       <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[12535cac226a5bdcf177b6236b6764dd]]></id>
+      <id><![CDATA[0c3d063daa3f6d5668485b573c8fb7dc]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[483955cbae8af132aec33bc85100190d]]></id>
       <name><![CDATA[VITESS_MAX]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[Double]]></type>
       <nullable>true</nullable>
       <listOfValues>
@@ -20,27 +33,54 @@
         <value><![CDATA[2]]></value>
         <value><![CDATA[]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[2f535980fb2e2aeb37b583735298a81c]]></id>
-      <name><![CDATA[DATENTREE]]></name>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
+      <id><![CDATA[4866bb5b3aa5aec39429a5366db5c050]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_INONDABLE_suffixInond_S_ddd.ID_S_INOND]]></reference>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[450ba1f75a81b70b54f6e7174d992bda]]></id>
-      <name><![CDATA[AZIMUTH]]></name>
+      <id><![CDATA[540992f923390b9a814c737103b217d7]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[T]]></value>
+        <value><![CDATA[F]]></value>
+      </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[62ea0be3ae4967ed5eb9217eccf67e49]]></id>
+      <id><![CDATA[66a4802276151424758bb88d6b7aea91]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPoint]]></type>
+      <nullable>false</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[8d40bbfbe819d5a224599d007938b5b0]]></id>
       <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[7e18c6d6b99dd7b6e6195408e74b1c89]]></id>
+      <id><![CDATA[bd371b5b36ddc38fafd07d1bae8e71d2]]></id>
+      <name><![CDATA[ID_POINT]]></name>
+      <description><![CDATA[COVADIS B1.2. - Identifiant de type 'PCV_[numero automatique] - Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <identifier>true</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[f5cf20323d1b3e999f184a417a4030dd]]></id>
       <name><![CDATA[VITESS_MIN]]></name>
       <description><![CDATA[Valeur vide interdite - Vitesse Min toujours inférieure à Vitesse Max]]></description>
       <type><![CDATA[Double]]></type>
@@ -52,31 +92,15 @@
         <value><![CDATA[2]]></value>
       </listOfValues>
       <constraint><![CDATA[VITESS_MAX IS NULL OR VITESS_MAX = '' OR ( VITESS_MIN <  VITESS_MAX )]]></constraint>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[d31b5e49d47a3df0a53f2ab39b603539]]></id>
-      <name><![CDATA[ID_S_INOND]]></name>
+      <id><![CDATA[fc57ccc0984ef5b99e92bb9302f11e37]]></id>
+      <name><![CDATA[AZIMUTH]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
-      <reference><![CDATA[N_prefixTri_INONDABLE_S_ddd.ID_S_INOND]]></reference>
-    </attribute>
-    <attribute>
-      <id><![CDATA[d9c2d5af28b922732f1e0869101301a2]]></id>
-      <name><![CDATA[EST_REF]]></name>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[fabb437b3033398e0abdb868f1243a29]]></id>
-      <name><![CDATA[ID_POINT]]></name>
-      <description><![CDATA[COVADIS B1.2. - Identifiant de type 'PCV_[numero automatique] - Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <identifier>true</identifier>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

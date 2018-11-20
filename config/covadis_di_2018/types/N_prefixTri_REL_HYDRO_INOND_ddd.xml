@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[c564bce04117505fa230f727947a53cb]]></id>
+  <id><![CDATA[518fc8dc91df17ae24a3b1d5ac54ef41]]></id>
   <typeName><![CDATA[N_prefixTri_REL_HYDRO_INOND_ddd]]></typeName>
+  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[012bf90d68fa15ea34f0a23c052f6f56]]></id>
+      <id><![CDATA[34b2785614f87a63bd0ebeef396d7ab5]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_INONDABLE_suffixInond_S_ddd.ID_S_INOND]]></reference>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[979440229eeea2892cbcb3f756fa261d]]></id>
       <name><![CDATA[CODE_EH]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[dd707ce8a91411f09107b8c57d556b6a]]></id>
-      <name><![CDATA[ID_S_INOND]]></name>
+      <id><![CDATA[b4249344901ddff2dd2fb7f014dc3319]]></id>
+      <name><![CDATA[VER_SI_EXT]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
-      <reference><![CDATA[N_TRI_JTEST_INONDABLE_S_02720180912100813650.ID_S_INOND]]></reference>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[b994a1e5f2025f819fd6f2a803df8ec2]]></id>
+      <name><![CDATA[ID_TRI]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

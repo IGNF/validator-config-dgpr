@@ -1,37 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[0d478366425a74cf410f970932a651be]]></id>
+  <id><![CDATA[dcde05e656f68e0965d3779d3003a5b6]]></id>
   <typeName><![CDATA[N_prefixTri_ECOUL_S_ddd]]></typeName>
+  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[0793957a2a40561c18e5c928a6dc9aef]]></id>
-      <name><![CDATA[ID_S_INOND]]></name>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <reference><![CDATA[N_prefixTri_INONDABLE_S_ddd.SCENARIO]]></reference>
-    </attribute>
-    <attribute>
-      <id><![CDATA[4b12aec576e612e9f30d1729921fe617]]></id>
-      <name><![CDATA[VITESSE]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[6e0a0d4bab9756935c99e15bd6cc82b8]]></id>
-      <name><![CDATA[DATSORTIE]]></name>
+      <id><![CDATA[17603b21a5a17d8b0f605132f1131843]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[a3f9ebf0aead9df8685217f481e079c0]]></id>
+      <id><![CDATA[19f9ed6ab589cc110944baeefe823d28]]></id>
+      <name><![CDATA[ID_TRI]]></name>
+      <description><![CDATA[Valeur nulle interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[4bbcddd2347dafa4d9e8b38c301cad69]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[T]]></value>
+        <value><![CDATA[F]]></value>
+      </listOfValues>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[9f34466b84c1985c5486117abb3064ab]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[ZE_[0-9]+$]]></regexp>
-      <id><![CDATA[a8b0eba991c962640c2b2903d3a57551]]></id>
+      <id><![CDATA[9ff3699f99294934abffc5f1b2a49bbe]]></id>
       <name><![CDATA[ID_ZONE]]></name>
       <description><![CDATA[COVADIS B1.2. - Identifiant de type ZE_[numero]]]></description>
       <type><![CDATA[String]]></type>
@@ -40,20 +51,29 @@
       <identifier>true</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[d23a7f2a5783ceeab28ec26f08c0e142]]></id>
-      <name><![CDATA[EST_REF]]></name>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[d9afe5e3fe3695d696f05aa74029e8fe]]></id>
-      <name><![CDATA[DATENTREE]]></name>
+      <id><![CDATA[c7da09c50e024b87d0c1ddc2f38977c1]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[d6269dfd57c000c3fe44f4db895d780a]]></id>
+      <name><![CDATA[VITESSE]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[e21ddaf46993a9b2e79aefafb5039ef8]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_INONDABLE_suffixInond_S_ddd.ID_S_INOND]]></reference>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

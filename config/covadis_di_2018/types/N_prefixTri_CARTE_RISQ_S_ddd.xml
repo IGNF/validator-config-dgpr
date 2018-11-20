@@ -1,37 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[bc33b5ff9f105e0804b62402e431ac66]]></id>
+  <id><![CDATA[b56e19847460f58d365aff795def1f1a]]></id>
   <typeName><![CDATA[N_prefixTri_CARTE_RISQ_S_ddd]]></typeName>
+  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[6bad42a7a6570cedf10128363e0cc71e]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPolygon]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[9e0235e7a1fbee535a94dfe6a7d8021b]]></id>
+      <id><![CDATA[0e78da6394747cb840d78c234c5d8d29]]></id>
       <name><![CDATA[DATFINVAL]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[9f210a474078ae3bd931332b025b9604]]></id>
-      <name><![CDATA[DATAPPRO]]></name>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[b8abca5471ec3517505a143b87680578]]></id>
-      <name><![CDATA[ID_TRI]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[CRI_[0-9]+$]]></regexp>
-      <id><![CDATA[e9f9d5627db99fdf23b74bc0c07fa68b]]></id>
+      <id><![CDATA[39d32e6f30c8ce556cdd4edf69c019b8]]></id>
       <name><![CDATA[ID_CARTE]]></name>
       <description><![CDATA[COVADIS B1.2. - Identifiant de type CRI_[numero]]]></description>
       <type><![CDATA[String]]></type>
@@ -40,12 +23,37 @@
       <identifier>true</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[f4da72ea8e8c91e6fa29576de44570f9]]></id>
+      <id><![CDATA[63e7a8888d61140c67fdbcbb960ee669]]></id>
       <name><![CDATA[URLRAPPORT]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[6e1909a145749b8263ccbd3cb618e137]]></id>
+      <name><![CDATA[DATAPPRO]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[75ba794838ab80eb3666df47ba77d1dc]]></id>
+      <name><![CDATA[ID_TRI]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[873644e876a0ef1443bb5197fe47109a]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>
