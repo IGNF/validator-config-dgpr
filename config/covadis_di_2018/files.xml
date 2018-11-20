@@ -178,13 +178,6 @@
       <name><![CDATA[N_prefixTri_TRI_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
-    <file>
-      <path><![CDATA[.*_SIG_DI/N_.*_INONDABLE_S_([0-9]{3}|02[aA]|02[bB])]]></path>
-      <id><![CDATA[a7f1c323c6290fe1d200a84f3520d817]]></id>
-      <type><![CDATA[table]]></type>
-      <name><![CDATA[N_prefixTri_INONDABLE_S_ddd]]></name>
-      <mandatory><![CDATA[ERROR]]></mandatory>
-    </file>
   </files>
   <default_model>true</default_model>
 </document>
