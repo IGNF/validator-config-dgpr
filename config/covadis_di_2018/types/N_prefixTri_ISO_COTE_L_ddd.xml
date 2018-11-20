@@ -1,21 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[1e9eb4613dfe887561ed205578365eca]]></id>
+  <id><![CDATA[5c169a7a0934712fcb7781407c01e2b8]]></id>
   <typeName><![CDATA[N_prefixTri_ISO_COTE_L_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[04a5aa14bdcb02f4ee5c3297eb28707a]]></id>
+      <id><![CDATA[03872d563712f7a25ae42712ce52a69b]]></id>
+      <name><![CDATA[ID_S_INOND]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_INONDABLE_suffixInond_S_ddd.ID_S_INOND]]></reference>
+    </attribute>
+    <attribute>
+      <id><![CDATA[37fcaf5a2f6d8d2afeee80d5453e49ac]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiLineString]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[40143a0d59d56a0788faa391da6bd921]]></id>
+      <name><![CDATA[COTE]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[Double]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[8aa6ae906adf48b9be5cc6694c4294b0]]></id>
+      <name><![CDATA[SCENARIO]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[90b26de5a5af39498539e70241241d5b]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[95a614426f7b46f1048d594aef70deba]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[T]]></value>
+        <value><![CDATA[F]]></value>
+      </listOfValues>
+    </attribute>
+    <attribute>
+      <id><![CDATA[a6c84d8d7dbff12b08b21a691cf77d26]]></id>
       <name><![CDATA[COURS_DEAU]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>127</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[LIC_[0-9]+$]]></regexp>
-      <id><![CDATA[217c1ef488a5c6268c539a8707d21e58]]></id>
+      <id><![CDATA[b8bbae8d19699c157d8fc4d3c41bff78]]></id>
       <name><![CDATA[ID_LIGNE]]></name>
       <description><![CDATA[COVADIS B1.2. - Identifiant de type 'LIC_[numero]']]></description>
       <type><![CDATA[String]]></type>
@@ -24,81 +65,25 @@
       <identifier>true</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[2e55f112edb17b77856603711e36b75d]]></id>
+      <id><![CDATA[d14423900eb4116daee9d1e686b57d9d]]></id>
       <name><![CDATA[ID_TRI]]></name>
       <description><![CDATA[Valeur nulle interdite]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
       <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[7ba8dcfbc29a9156eb0379f6c7a39781]]></id>
-      <name><![CDATA[ID_S_INOND]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <reference><![CDATA[N_prefixTri_INONDABLE_suffixInond_S_ddd.ID_S_INOND]]></reference>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[81deef670ee2c4c9c72875c23dc0198d]]></id>
-      <name><![CDATA[COTE]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[Double]]></type>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[926226ce5c03e15eb52d32e6257d4c89]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiLineString]]></type>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[9d6de0268efdaa04fa96e6de2bc3a54d]]></id>
-      <name><![CDATA[SCENARIO]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[c7aff5c7fa91c4899d3082c1d41737c2]]></id>
-      <name><![CDATA[DATENTREE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[c85467c9996329feab86db0e4218fc4e]]></id>
+      <id><![CDATA[ea276b847448370e46fd2972c84cb3ee]]></id>
       <name><![CDATA[TYP_INOND]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[d0e1324659905f37ca293899ffc1e790]]></id>
+      <id><![CDATA[ee83b7ce3d7374a4894511f0f1b229e6]]></id>
       <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[dab4894adeea60fde6f89228f979caf9]]></id>
-      <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

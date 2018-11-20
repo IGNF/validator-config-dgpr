@@ -1,66 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[5f7985ee4fa59c2bff263d4842767bf0]]></id>
+  <id><![CDATA[173249f1294c394db6b3addd01082815]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_CRISE_L_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[303978f263336711771581e3bb124215]]></id>
-      <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
-      <size>10</size>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[4fde9723bcd6a7d91de6b81376389712]]></id>
-      <name><![CDATA[NOM_SI_EXT]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <size>50</size>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[649bc7b23a21333f52a60e26051ba474]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiLineString]]></type>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[87e7e5049c5a608c49b6e6ecb9c3f0f6]]></id>
-      <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <regexp><![CDATA[^[0-9]{0,4}[a-z]*$]]></regexp>
-      <id><![CDATA[8b0c4d8e1dfb9166a477ecdbf43392f5]]></id>
-      <name><![CDATA[CODCOVADIS]]></name>
-      <description><![CDATA[Cf. nomenclature COVADIS standard PPRN (annexe D.1)]]></description>
-      <type><![CDATA[String]]></type>
-      <size>5</size>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[af69fddc9d5348b8144017447933940d]]></id>
-      <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[de343c95e4f26f6c5a5e5ea94fc87ecc]]></id>
+      <id><![CDATA[13a0f6b4a52667b64f0934521cc4875f]]></id>
       <name><![CDATA[ID_SI_EXT]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
@@ -69,12 +13,57 @@
       <identifier>true</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[f6298a4edf685147f7fdc2413dfdf6df]]></id>
+      <id><![CDATA[2651c4f3d906909d5b1b462c9f6f6dd9]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[T]]></value>
+        <value><![CDATA[F]]></value>
+      </listOfValues>
+    </attribute>
+    <attribute>
+      <id><![CDATA[5677cc2640fe64e38c2d74b59b0f77db]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[8b7f2b262c28dff0c57b06aa459dd0bf]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiLineString]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <regexp><![CDATA[^[0-9]{0,4}[a-z]*$]]></regexp>
+      <id><![CDATA[98008c5e79f8e131194f6f9fa2b2deed]]></id>
+      <name><![CDATA[CODCOVADIS]]></name>
+      <description><![CDATA[Cf. nomenclature COVADIS standard PPRN (annexe D.1)]]></description>
+      <type><![CDATA[String]]></type>
+      <size>5</size>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[c2512f33977cd4cd6e0b00dd99b63a85]]></id>
       <name><![CDATA[CATEGORIE]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[d3359eedd51fc1bc1ec1a44347bc1cdb]]></id>
+      <name><![CDATA[VER_SI_EXT]]></name>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[ddde30530585368866ef8b99601d80e5]]></id>
+      <name><![CDATA[NOM_SI_EXT]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <size>50</size>
+      <nullable>false</nullable>
     </attribute>
   </attributes>
 </featureType>

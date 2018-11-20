@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[996359ee255d548fa9430a7bef35a0d4]]></id>
+  <id><![CDATA[2a76d18ae5f659ca7b21772e45ece046]]></id>
   <typeName><![CDATA[N_prefixTri_SURALEA_S_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <regexp><![CDATA[ZSA_[0-9]+$]]></regexp>
-      <id><![CDATA[07770546348921650204863c83ed72cc]]></id>
+      <id><![CDATA[03c7cc89926e4dea282e61d8433196e5]]></id>
       <name><![CDATA[ID_ZONE]]></name>
       <description><![CDATA[COVADIS B1.2. - Identifiant de type ZSA_[numero]]]></description>
       <type><![CDATA[String]]></type>
@@ -15,56 +14,47 @@
       <identifier>true</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[54e310ce9fee70ff8cfdfd302e006869]]></id>
+      <id><![CDATA[0d04ae7bd927528ae56bb1d49a794911]]></id>
+      <name><![CDATA[DATSORTIE]]></name>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[1b4f0b30df3c5fc557ab551fab414a85]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[2456a90bcd2cbcacda314f4ab2667337]]></id>
+      <name><![CDATA[DATENTREE]]></name>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[812a2a6b1559d1d2595f1062d5cad289]]></id>
       <name><![CDATA[ID_TRI]]></name>
       <description><![CDATA[Valeur nulle interdite]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
       <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[762e63a6acc09576dbfe8b4f4f5d1b39]]></id>
+      <id><![CDATA[97a58ed2fe82acb110a30cd6cbbf6b7d]]></id>
       <name><![CDATA[SCENARIO]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[85be232f0aac895f7601a09aed72303c]]></id>
-      <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[ca76736171e34eaa1a45ee32e2649479]]></id>
-      <name><![CDATA[DATENTREE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[dd6db0e8291bcccf3ca8b0c250949a8a]]></id>
+      <id><![CDATA[aeccba6559ddb35a4e9472565f8ec4c8]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[fe9c4865e638895463175981e697ecf3]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPolygon]]></type>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

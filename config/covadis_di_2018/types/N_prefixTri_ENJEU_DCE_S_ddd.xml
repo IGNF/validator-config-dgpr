@@ -1,52 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[23b866e90e46cd17417ae75b6b739373]]></id>
+  <id><![CDATA[f037983bf61766790d5d690563f64437]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_DCE_S_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[3662ddb69705749198f927f2714a7434]]></id>
+      <id><![CDATA[7794970293459349c0600d940ab02f77]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[69e884dde34d4cad070d03dc6a4edc08]]></id>
+      <id><![CDATA[98e796882aa3ec2d81dcb1e8929c0ec9]]></id>
+      <name><![CDATA[PA_TYPE]]></name>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[a67cde07c44c46321583e9b0b6c3f626]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[bb2358d8f996084aa43d58605dcc8a23]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[b357ef8070a5db44aca8495b56df3aea]]></id>
-      <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[e2f6115b021757b07c2ad9fe16a7f6f7]]></id>
+      <id><![CDATA[d608c19630a0d036b0165469e2a65c0e]]></id>
       <name><![CDATA[EU_CD_PA]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
       <identifier>true</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[fbe5defc7618a4b700a6e1480318c184]]></id>
-      <name><![CDATA[PA_TYPE]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

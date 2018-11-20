@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[3cf5d5956a2abfd03b1c1c5ba2f9c3e5]]></id>
+  <id><![CDATA[77e8ac067a73ac078535183c2c49285e]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_CRISE_P_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[046adc70ed1e6ef3a60f4a0ff52aa655]]></id>
+      <id><![CDATA[31ca4d01933db577abcb7f613af0e0c7]]></id>
       <name><![CDATA[ID_SI_EXT]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
@@ -14,67 +13,57 @@
       <identifier>true</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[2d9c0fc9fb59ba9f1d5c7e3dc368e33b]]></id>
-      <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[8a0d7c7d5fde0102137905144b2893b0]]></id>
+      <id><![CDATA[470c816cb58438c412c68347a07cb9d0]]></id>
       <name><![CDATA[CATEGORIE]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[a903490df1c0051b9203a2801e0fb79d]]></id>
-      <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[]]></description>
-      <type><![CDATA[String]]></type>
-      <size>10</size>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[ae0acc7433301c85ec6ddda04405a3f1]]></id>
-      <name><![CDATA[NOM_SI_EXT]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <size>50</size>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[c0c5c2bd40c2da1e11009939842266cd]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPoint]]></type>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[e68ce33ab9d863a061e2e2427684f080]]></id>
+      <id><![CDATA[509c906e2e6cc29f6a6038d6358c549c]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[567c7b888d074946df83a82c4ebc8bfd]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[6f034e19ec192e10cb1236bee532616c]]></id>
+      <name><![CDATA[NOM_SI_EXT]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <size>50</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[a4033b5668b2383c221cb034538fc8f5]]></id>
+      <name><![CDATA[VER_SI_EXT]]></name>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <regexp><![CDATA[^[0-9]{0,4}[a-z]*$]]></regexp>
-      <id><![CDATA[fd76e78c4c5bb6b4db4b093437035231]]></id>
+      <id><![CDATA[db4c297aaf36a9673617638a1cd6d231]]></id>
       <name><![CDATA[CODCOVADIS]]></name>
       <description><![CDATA[Cf. nomenclature COVADIS standard PPRN (annexe D.1)]]></description>
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[e6c2eafb40a060e6092bd21031f26463]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPoint]]></type>
+      <nullable>false</nullable>
     </attribute>
   </attributes>
 </featureType>
