@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[5cb34e0648d91e8fdca5937a1d53053d]]></id>
+  <id><![CDATA[b5d36e93ad24fbadddad7b4bbe9e3925]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_IPPC_P_ddd]]></typeName>
   <attributes>
     <attribute>
-      <id><![CDATA[0ddd3a2793ab538896dbb4714e2943da]]></id>
+      <id><![CDATA[08a60a792a39a175bc3039cb5d2bb405]]></id>
       <name><![CDATA[CODE_ACTIV]]></name>
       <type><![CDATA[String]]></type>
       <size>6</size>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[180c23d38a8a2d108b78bb589e23c6e5]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPoint]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[2e1d7a25682cec9c5593fe6dac3942b1]]></id>
+      <id><![CDATA[1d28c2b7db684f82c5570d917df48c35]]></id>
       <name><![CDATA[NOM]]></name>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[5195e0dab7f9d2d3eac69029f51c4119]]></id>
-      <name><![CDATA[DATIMPORT]]></name>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
+      <id><![CDATA[3db8887242d98105b48228e8a010cb98]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPoint]]></type>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[ba4218358c2c27622dc9c076da89b7f4]]></id>
+      <id><![CDATA[428547ac7c6163f435b9177c4def6f18]]></id>
+      <name><![CDATA[CODE_IPPC]]></name>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>true</nullable>
+      <identifier>true</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[8a9ac9e9fa44b2230065fc6aaeb1a178]]></id>
       <name><![CDATA[EST_REF]]></name>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
@@ -40,12 +42,10 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[d7f27d556a82f95af02e40609baba096]]></id>
-      <name><![CDATA[CODE_IPPC]]></name>
-      <type><![CDATA[String]]></type>
-      <size>30</size>
+      <id><![CDATA[a97228736b6bb24bbdcb8bd2b86612fc]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>true</identifier>
     </attribute>
   </attributes>
 </featureType>

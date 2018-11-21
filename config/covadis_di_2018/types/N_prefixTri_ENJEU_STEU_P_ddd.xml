@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[c5fcedbd7a71e44ef5e682fa821ee282]]></id>
+  <id><![CDATA[1cbf929b43612b70d27dd6b896ef378c]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_STEU_P_ddd]]></typeName>
   <attributes>
     <attribute>
-      <id><![CDATA[08f70fe947e7b0a3f0d3bc426a624665]]></id>
+      <id><![CDATA[1359eb0488c862d7de3b10c60586d048]]></id>
       <name><![CDATA[EST_REF]]></name>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
@@ -14,19 +14,7 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <id><![CDATA[2a36fb46c627c3a95b7c60b52c64f3e0]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPoint]]></type>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[39a15937a35bdcd3047bc3770fa63025]]></id>
-      <name><![CDATA[CAPACITE_N]]></name>
-      <type><![CDATA[Integer]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[543dce95dd294f861da32df8227d6d24]]></id>
+      <id><![CDATA[13691ae6de18e143310b2bf3abf9274a]]></id>
       <name><![CDATA[CODE_STEU]]></name>
       <type><![CDATA[String]]></type>
       <size>30</size>
@@ -34,9 +22,21 @@
       <identifier>true</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[6d933c630a854d2a04d753a3c6c8a505]]></id>
+      <id><![CDATA[28dc01fb6e2ce68729de44a707e641d9]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPoint]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[9360118962c5d80c3c49fc0b0917c06e]]></id>
       <name><![CDATA[DATIMPORT]]></name>
       <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[c18350cfa5d23fb5b87c3e125f111a79]]></id>
+      <name><![CDATA[CAPACITE_N]]></name>
+      <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
     </attribute>
   </attributes>
