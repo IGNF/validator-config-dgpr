@@ -178,6 +178,14 @@
       <name><![CDATA[N_prefixTri_TRI_S_ddd]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
+    <file>
+      <path><![CDATA[.*_SIG_DI]]></path>
+      <id><![CDATA[f107d77b75049a44284d3a0f6d6e411f]]></id>
+      <type><![CDATA[directory]]></type>
+      <name><![CDATA[prefixTri_SIG_DI]]></name>
+      <description><![CDATA[repertoire]]></description>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
   </files>
   <default_model>true</default_model>
 </document>
