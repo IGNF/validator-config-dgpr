@@ -48,7 +48,7 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[^FR[A-Z0-9]{1,4}_TRI_[A-Z0-9_]{1,33}$]]></regexp>
+      <regexp><![CDATA[^FR[A-Z0-9]{1,4}_TRI_[A-Z0-9_-]{1,33}$]]></regexp>
       <id><![CDATA[f7cd0d9fbcdb7cefafdf5510fe03984f]]></id>
       <name><![CDATA[ID_TRI]]></name>
       <description><![CDATA[COVADIS B1.2. - Identifiant de type [Code EUUOM Bassin DCE]_TRI_[Nom court TRI]. Exemple : "FRD_TRI_LYON"]]></description>

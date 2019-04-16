@@ -83,7 +83,7 @@ f5a90aaf88c4a0cba2c56ae22d65e5b7,33e20967e436cf542ca8d7a87917c4a0,ID_ZONE,"COVAD
 71f490e3e52f8a79c42c32f4370cf50c,40ee150106902bc1da3743c79c2e737b,DATENTREE,,Date,,1,,,,,
 9aae6e8b71d85de03609106104eab3a2,40ee150106902bc1da3743c79c2e737b,NOM,"Valeur vide interdite",String,254,,,,,,
 f7074f1b5f2d7f98903927a88cdda2de,40ee150106902bc1da3743c79c2e737b,TX_HAB_SAI,,Integer,,1,,,,,
-f7cd0d9fbcdb7cefafdf5510fe03984f,40ee150106902bc1da3743c79c2e737b,ID_TRI,"COVADIS B1.2. - Identifiant de type [Code EUUOM Bassin DCE]_TRI_[Nom court TRI]. Exemple : ""FRD_TRI_LYON""",String,50,,,"^FR[A-Z0-9]{1,4}_TRI_[A-Z0-9_]{1,33}$",,,1
+f7cd0d9fbcdb7cefafdf5510fe03984f,40ee150106902bc1da3743c79c2e737b,ID_TRI,"COVADIS B1.2. - Identifiant de type [Code EUUOM Bassin DCE]_TRI_[Nom court TRI]. Exemple : ""FRD_TRI_LYON""",String,50,,,"^FR[A-Z0-9]{1,4}_TRI_[A-Z0-9_-]{1,33}$",,,1
 1f39031bebf45d3826626bda7bcdd4c1,7945dc1b14df5e1c62f24194da6cb86f,EST_REF,,String,,1,"T,F",,,,
 259206ae2e50a2f4972df01d7fb99a07,7945dc1b14df5e1c62f24194da6cb86f,SCENA_RUPT,"Valeur vide interdite",String,,,"05,01,02,04,03",,,,
 3567b5fe82f654e4099e04eeb15fcf9b,7945dc1b14df5e1c62f24194da6cb86f,NOM,,String,254,1,,,,,
