@@ -1,8 +1,7 @@
 id,feature_type_id,name,description,type,size,nullable,list_of_values,regexp,attribute_constraint,feature_reference,is_identifier
 2b8efaa022a54209168ee125ce084f34,02a920fa0b8350c5fb6e4f99913eb07d,ID_ZONE,"COVADIS B1.2. - Identifiant de type ZCD_'[numero]'",String,30,,,ZCD_[0-9]+$,,,1
 4407bd14a5890c529cb7ba63fdca7d43,02a920fa0b8350c5fb6e4f99913eb07d,DATSORTIE,,Date,,1,,,,,
-4582ec97138c1097cf787a5054f8316e,02a920fa0b8350c5fb6e4f99913eb07d,DEBLIN_MIN,"Valeur vide interdite- Exprimé en m²/s
-- Ne peut pas être négative",Double,,,,,"DEBLIN_MIN >= 0",,
+4582ec97138c1097cf787a5054f8316e,02a920fa0b8350c5fb6e4f99913eb07d,DEBLIN_MIN,"Valeur vide interdite- Exprimé en m²/s- Ne peut pas être négative",Double,,,,,"DEBLIN_MIN >= 0",,
 462869d774d4c90dbd999760cc56cf95,02a920fa0b8350c5fb6e4f99913eb07d,DEBLIN_MAX,"Exprimé en m²/s - DEBLIN_MAX >= DEBLIN_MIN",Double,,1,,," DEBLIN_MAX= NULL  OR   DEBLIN_MAX >=  DEBLIN_MIN",,
 656c50aaf6355d45dde0f49ffcb67d91,02a920fa0b8350c5fb6e4f99913eb07d,ID_TRI,"Valeur vide interdite",String,,,,,,N_prefixTri_TRI_S_ddd.ID_TRI,
 6b28ce22a10fcf990ad337e2ad4852d4,02a920fa0b8350c5fb6e4f99913eb07d,EST_REF,,String,,1,"'T','F'",,,,
@@ -123,7 +122,7 @@ fa9091ff148437887fb5ecd4d049eb06,9c8ec99a34b1a31c4092816b6fe5c733,SCENARIO,"Vale
 83a363ebb7d90a9997c1ce333d3d6251,a8af294ee4d4be5c8e756c73b8963648,EMPLOI_MAX,,Integer,,1,,,,,
 844df6be4a462d47f433a685d987942f,a8af294ee4d4be5c8e756c73b8963648,TYP_INOND,"Valeur vide interdite",String,,,"01,04,02,03",,,,
 e9a10066cb430617d28e8418e6a094b1,a8af294ee4d4be5c8e756c73b8963648,EST_REF,,String,,1,"T,F",,,,
-fb9eefb1d505ec751ba3d36aee7f60bb,a8af294ee4d4be5c8e756c73b8963648,ID,,String,50,,,,,,1
+fb9eefb1d505ec751ba3d36aee7f60bb,a8af294ee4d4be5c8e756c73b8963648,ID,,String,50,,,,,,
 018b6d174b297a5ac1db9dd441e54dab,a9081a44d2955a1bf0b830655962c943,EST_REF,,String,,1,"T,F",,,,
 3d4984924f49d502745dc6d08f3bdf99,a9081a44d2955a1bf0b830655962c943,ID_LIGNE,"COVADIS B1.2. - Identifiant de type 'LIC_[numero]'",String,30,,,LIC_[0-9]+$,,,1
 3d92c30f83ab66df95ed89f546866121,a9081a44d2955a1bf0b830655962c943,COURS_DEAU,,String,127,1,,,,,

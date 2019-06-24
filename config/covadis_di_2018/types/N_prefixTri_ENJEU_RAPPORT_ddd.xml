@@ -77,7 +77,7 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>true</identifier>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

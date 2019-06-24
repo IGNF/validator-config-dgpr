@@ -134,7 +134,7 @@
       <id><![CDATA[2e6ba626adad1741fa1c93a1bce976e8]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[N_prefixTri_ISO_HT_suffixIsoHt_S_ddd]]></name>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[WARN]]></mandatory>
     </file>
     <file>
       <path><![CDATA[N_.*_OUV_PROTEC_L_([0-9]{3}|02[aA]|02[bB])]]></path>
