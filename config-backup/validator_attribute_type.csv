@@ -133,7 +133,7 @@ f0d8ccf97c99af45d01c399737756325,5bb371f78c3e476427bca3b759cf53d0,WKT,,MultiPoly
 7fd5756233e9c00f7cb87ef2d00b8864,651ca9cddbbd986c0e159745ca18e5e2,DATENTREE,,Date,,1,,,,,
 878db0245d229e1aece761835d9c7cc9,651ca9cddbbd986c0e159745ca18e5e2,ZPP,,String,,1,"T,F",,,,
 b86c4c119a77ebbf262e52df08632a7b,651ca9cddbbd986c0e159745ca18e5e2,ID_ZONE,"COVADIS B1.2. - Identifiant de type ZP(P)_[numero]",String,30,,,ZPP?_[0-9]+$,,,1
-c2750e89f55fc93a5d1a961d66d95f64,651ca9cddbbd986c0e159745ca18e5e2,ID_TRI,"Valeur nulle interdite",String,,,,,,N_TRI_JTEST_TRI_S_02720180912100813572.ID_TRI,
+c2750e89f55fc93a5d1a961d66d95f64,651ca9cddbbd986c0e159745ca18e5e2,ID_TRI,"Valeur nulle interdite",String,,,,,,N_prefixTri_TRI_S_ddd.ID_TRI,
 c31ea7af75f5c7618279dbbc8c16e91f,651ca9cddbbd986c0e159745ca18e5e2,EST_REF,,String,,1,"T,F",,,,
 d6469748f88ed1b8deb036ca457855d0,651ca9cddbbd986c0e159745ca18e5e2,WKT,,MultiPolygon,,,,,,,
 07f634f6bbce19450991766999a0b9ef,8eeb52323e07eadd0b0d1d1ea5484841,EST_REF,,String,,1,"T,F",,,,
