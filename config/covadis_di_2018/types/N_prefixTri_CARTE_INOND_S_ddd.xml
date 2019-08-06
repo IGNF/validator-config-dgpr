@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[f9982c61b4db0242fd0f4ffe7962ba51]]></id>
+  <id><![CDATA[c2ff58a0fceb7d48fd8cd31a21c653f1]]></id>
   <typeName><![CDATA[N_prefixTri_CARTE_INOND_S_ddd]]></typeName>
+  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[0114cca8e4edb73c2f403059664ed356]]></id>
-      <name><![CDATA[DATFINVAL]]></name>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[225a52335092ce4a3882b69a6068957c]]></id>
-      <name><![CDATA[EST_SYNTH]]></name>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[3f377525f07118cdfa155c1a4bc533a0]]></id>
-      <name><![CDATA[URLRAPPORT]]></name>
-      <type><![CDATA[String]]></type>
-      <size>254</size>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[45d89719ff036b10fc76b4e5296d3769]]></id>
+      <id><![CDATA[03f87976e3389527214dd3987f95fc23]]></id>
       <name><![CDATA[TYP_INOND2]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
@@ -37,10 +16,11 @@
         <value><![CDATA[02]]></value>
         <value><![CDATA[03]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[CSI_[0-9]+$]]></regexp>
-      <id><![CDATA[5834111621d0809d8864ca9abc795026]]></id>
+      <id><![CDATA[2249cd87a3298504269b120127e52f0b]]></id>
       <name><![CDATA[ID_CARTE]]></name>
       <description><![CDATA[- COVADIS B1.2. - Identifiant de type 'CSI_[numero automatique]']]></description>
       <type><![CDATA[String]]></type>
@@ -49,42 +29,28 @@
       <identifier>true</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[8688946e99eea31499e657ec8cd54831]]></id>
-      <name><![CDATA[TYP_INOND1]]></name>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[01]]></value>
-        <value><![CDATA[04]]></value>
-        <value><![CDATA[02]]></value>
-        <value><![CDATA[03]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <id><![CDATA[9236cd319a2d5b4d78a248d22508b66b]]></id>
-      <name><![CDATA[ID_TRI]]></name>
-      <type><![CDATA[String]]></type>
-      <nullable>false</nullable>
-      <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
-    </attribute>
-    <attribute>
-      <id><![CDATA[b943ce4ba8f977e4e4fc3560760dc0b3]]></id>
-      <name><![CDATA[DATAPPRO]]></name>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[df4004827043b87bf9f724d406e6e7b7]]></id>
+      <id><![CDATA[516897a090044a2496b778a6149b1a6d]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[fef801211e1885f1459233d6c516fc0c]]></id>
+      <id><![CDATA[56c9075ae311d04fcfef7a74f13c26b8]]></id>
+      <name><![CDATA[DATAPPRO]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[74404fcb91fce862db5e86713219ed8a]]></id>
       <name><![CDATA[SCENARIO]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
+        <value><![CDATA[04Fai_100]]></value>
         <value><![CDATA[04Faicc_ct]]></value>
         <value><![CDATA[01Forcc_ct]]></value>
         <value><![CDATA[01Forcc_100]]></value>
@@ -94,6 +60,59 @@
         <value><![CDATA[02Moy]]></value>
         <value><![CDATA[03Mcc]]></value>
       </listOfValues>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[76d6a8ecdab8e0d14bc2605e66b109ea]]></id>
+      <name><![CDATA[EST_SYNTH]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <listOfValues>
+        <value><![CDATA[T]]></value>
+        <value><![CDATA[F]]></value>
+      </listOfValues>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[7ea4b7bb42a4a72fb0bb7d84405b0043]]></id>
+      <name><![CDATA[TYP_INOND1]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[01]]></value>
+        <value><![CDATA[04]]></value>
+        <value><![CDATA[02]]></value>
+        <value><![CDATA[03]]></value>
+      </listOfValues>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[aa1684cb8a6da4d1b9707c14f2363bb7]]></id>
+      <name><![CDATA[ID_TRI]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>false</nullable>
+      <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[fdfe78f91bd10612fa7ae44601713ae8]]></id>
+      <name><![CDATA[DATFINVAL]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[fe8d19f0932a486302bc4aba069c5a2a]]></id>
+      <name><![CDATA[URLRAPPORT]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <size>254</size>
+      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>
