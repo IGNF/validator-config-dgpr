@@ -2,12 +2,10 @@
 <featureType>
   <id><![CDATA[c2ff58a0fceb7d48fd8cd31a21c653f1]]></id>
   <typeName><![CDATA[N_prefixTri_CARTE_INOND_S_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <id><![CDATA[03f87976e3389527214dd3987f95fc23]]></id>
       <name><![CDATA[TYP_INOND2]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
@@ -16,7 +14,6 @@
         <value><![CDATA[02]]></value>
         <value><![CDATA[03]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[CSI_[0-9]+$]]></regexp>
@@ -33,20 +30,16 @@
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[56c9075ae311d04fcfef7a74f13c26b8]]></id>
       <name><![CDATA[DATAPPRO]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[74404fcb91fce862db5e86713219ed8a]]></id>
       <name><![CDATA[SCENARIO]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
@@ -60,24 +53,20 @@
         <value><![CDATA[02Moy]]></value>
         <value><![CDATA[03Mcc]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[76d6a8ecdab8e0d14bc2605e66b109ea]]></id>
       <name><![CDATA[EST_SYNTH]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7ea4b7bb42a4a72fb0bb7d84405b0043]]></id>
       <name><![CDATA[TYP_INOND1]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
@@ -86,33 +75,26 @@
         <value><![CDATA[02]]></value>
         <value><![CDATA[03]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[aa1684cb8a6da4d1b9707c14f2363bb7]]></id>
       <name><![CDATA[ID_TRI]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
       <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[fdfe78f91bd10612fa7ae44601713ae8]]></id>
       <name><![CDATA[DATFINVAL]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[fe8d19f0932a486302bc4aba069c5a2a]]></id>
       <name><![CDATA[URLRAPPORT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

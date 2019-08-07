@@ -2,60 +2,48 @@
 <featureType>
   <id><![CDATA[de77743a08880d8ca77d970bf2efb0ea]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_IED_P_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <id><![CDATA[07c7cc46368ccbdc4229ffd835f27971]]></id>
       <name><![CDATA[CODE_IED]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[62a6f985390acb975ec149ab49ab6dc3]]></id>
       <name><![CDATA[CODE_ACTIV]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>6</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[71f516bae9a06773f02cfb4adb849b35]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d23713f8beda61dd37280845f3972718]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e28f87d770e3b40afb33f4666bf33d7b]]></id>
       <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e66d9aa1a4463d3dc9ed5a211c85cc26]]></id>
       <name><![CDATA[NOM]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

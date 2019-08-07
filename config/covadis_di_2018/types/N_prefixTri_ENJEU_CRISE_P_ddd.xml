@@ -2,19 +2,16 @@
 <featureType>
   <id><![CDATA[de7f6742f9eaa958f251d1a883fb7921]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_CRISE_P_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <id><![CDATA[1d4136d525384f9530e5fcff6e16b7d7]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[2073da9fb9f66308ab9083f01c8bc5d5]]></id>
@@ -23,7 +20,6 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[^[0-9]{0,4}[a-z]*$]]></regexp>
@@ -33,14 +29,12 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[2e62808e812f5ff5ef86273cee075d6d]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3a00507a89fb5b99c3ff7579035a18bb]]></id>
@@ -67,7 +61,6 @@
         <value><![CDATA[14]]></value>
         <value><![CDATA[08]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3b80a4281dedf8c571df4139c898d6d1]]></id>
@@ -76,24 +69,19 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[69732cbd0c69eab891057256e33c0d63]]></id>
       <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b0de9da56d750ce6f2835dff4846e5c3]]></id>
       <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>
