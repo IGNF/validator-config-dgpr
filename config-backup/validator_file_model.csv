@@ -2,11 +2,11 @@ id,document_model_id,type,name,description,path,mandatory
 021c6604a641341149e735fc5a8effe9,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_ENJEU_CRISE_L_ddd,,N_.*_ENJEU_CRISE_L_([0-9]{3}|02[aA]|02[bB]),OPTIONAL
 08651fdaeca64491459a6b84c2bc7ed3,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_SURALEA_S_ddd,,N_.*_SURALEA_S_([0-9]{3}|02[aA]|02[bB]),OPTIONAL
 0e7c86cd915a7415cefc53ea9a407c6f,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_CARTE_INOND_S_ddd,,N_.*_CARTE_INOND_S_([0-9]{3}|02[aA]|02[bB]),ERROR
-1e2cafc2097fb78aa2d537a37710e651,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_INONDABLE_suffixInond_S_ddd,,"N_.*_INONDABLE_.{0,20}_S_([0-9]{3}|02[aA]|02[bB])",ERROR
+1e2cafc2097fb78aa2d537a37710e651,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_INONDABLE_suffixInond_S_ddd,,"N_.*_INONDABLE.{0,20}_S_([0-9]{3}|02[aA]|02[bB])",ERROR
 2020f026513bae8cc51a0b968cb84c17,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_ENJEU_PATRIM_S_ddd,,N_.*_ENJEU_PATRIM_S_([0-9]{3}|02[aA]|02[bB]),OPTIONAL
 2234886dac757579eef0a63242009ba2,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_ENJEU_STEU_P_ddd,,N_.*_ENJEU_STEU_P_([0-9]{3}|02[aA]|02[bB]),OPTIONAL
 272aca26b80f291e7619b676b67d2090,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_REL_HYDRO_INOND_ddd,,N_.*_REL_HYDRO_INOND_([0-9]{3}|02[aA]|02[bB]),OPTIONAL
-2e6ba626adad1741fa1c93a1bce976e8,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_ISO_HT_suffixIsoHt_S_ddd,,"N_.*_ISO_HT_.{0,20}_S_([0-9]{3}|02[aA]|02[bB])",WARN
+2e6ba626adad1741fa1c93a1bce976e8,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_ISO_HT_suffixIsoHt_S_ddd,,"N_.*_ISO_HT.{0,20}_S_([0-9]{3}|02[aA]|02[bB])",WARN
 3a2919cd29f71c7bd128338d81e673e9,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_ISO_DEB_S_ddd,,N_.*_ISO_DEB_S_([0-9]{3}|02[aA]|02[bB]),OPTIONAL
 3a4280fa81164b503e34c18ad27ea983,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_COMMUNE_S_ddd,,N_.*_COMMUNE_S_([0-9]{3}|02[aA]|02[bB]),ERROR
 4c35064b6f886e6be9cbb5a2bcfc790e,48cbe0573f476664353c7bd681f5f2e6,table,N_prefixTri_QUARTIER_S_ddd,,N_.*_QUARTIER_S_([0-9]{3}|02[aA]|02[bB]),OPTIONAL

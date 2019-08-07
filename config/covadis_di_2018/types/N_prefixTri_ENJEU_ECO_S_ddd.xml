@@ -1,32 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[553449c83791914d8289ec94110bfb07]]></id>
+  <id><![CDATA[59b94cece0c04bb40df2d058ef69fbe6]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_ECO_S_ddd]]></typeName>
+  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <regexp><![CDATA[^[0-9]{4}[a-z]*$]]></regexp>
-      <id><![CDATA[5ad888a15811fa6c9fc55160cdd5e561]]></id>
+      <id><![CDATA[2c05d1d52bd94fcb0db8e5b5da7815bd]]></id>
       <name><![CDATA[CODCOVADIS]]></name>
       <description><![CDATA[Cf. nomenclature COVADIS standard PPRN (annexe D.1)]]></description>
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[5b660aae1b908bbab2e72e606643048f]]></id>
+      <id><![CDATA[5682b7d7d7e36c7c4c495b654ac3f80c]]></id>
+      <name><![CDATA[VER_SI_EXT]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[87bbdfca741e8cc29be1a8fae097a8f2]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[690445446ca9954bd2480747e691a8f9]]></id>
+      <id><![CDATA[94d0e2f1f1b86ecfa47d4a85ef406b6d]]></id>
+      <name><![CDATA[ID_SI_EXT]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
+      <type><![CDATA[String]]></type>
+      <size>50</size>
+      <nullable>false</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[9fbba2e4a1d2dea69d52fca82fff1c8b]]></id>
       <name><![CDATA[DATIMPORT]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[7c34a1fbe6f37a1404ae6dffc785f86b]]></id>
+      <id><![CDATA[cea9aac3b73716f5accb6b797699ff22]]></id>
+      <name><![CDATA[EST_REF]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <nullable>true</nullable>
+      <listOfValues>
+        <value><![CDATA[T]]></value>
+        <value><![CDATA[F]]></value>
+      </listOfValues>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[d7fe9b179c7b7d2c5f8d74c6378a4017]]></id>
       <name><![CDATA[TYPE_ACTIV]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
@@ -39,39 +75,16 @@
         <value><![CDATA[06]]></value>
         <value><![CDATA[05]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[94e5b1d5a34c177249b11ffb797d82c7]]></id>
-      <name><![CDATA[VER_SI_EXT]]></name>
-      <type><![CDATA[String]]></type>
-      <size>10</size>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[9b1c755e71d5163199ca7cf9eaf5fc30]]></id>
+      <id><![CDATA[faa81b0de6a68a199eec3da5272ce808]]></id>
       <name><![CDATA[NOM_SI_EXT]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[a997cf3029ae95795c7e0bcead11154e]]></id>
-      <name><![CDATA[ID_SI_EXT]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <size>50</size>
-      <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[de0875116c51fee55b8acdd1d5c3b60b]]></id>
-      <name><![CDATA[EST_REF]]></name>
-      <type><![CDATA[String]]></type>
-      <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

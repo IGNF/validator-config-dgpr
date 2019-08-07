@@ -1,59 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
-  <id><![CDATA[e01e102712f57fe626bedf937f69d930]]></id>
+  <id><![CDATA[753e61c837050dc32bdac88721341556]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_PATRIM_P_ddd]]></typeName>
+  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
-      <id><![CDATA[37e907287010db06418a960371299cd8]]></id>
+      <id><![CDATA[289af181078f7f2dc2d4efeeb009a8fd]]></id>
       <name><![CDATA[TYPE_ENJEU]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[6edde937cc9b704ac3ee9acfb2ee8482]]></id>
-      <name><![CDATA[NOM_SI_EXT]]></name>
-      <description><![CDATA[Valeur vide interdite]]></description>
-      <type><![CDATA[String]]></type>
-      <size>50</size>
-      <nullable>false</nullable>
+      <id><![CDATA[39cd57f4e6caaba0ea413af82a2ec122]]></id>
+      <name><![CDATA[DATIMPORT]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[Date]]></type>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[9858f85c7993bb374aa221cff7eb7e51]]></id>
+      <id><![CDATA[9e0762ef88044c9dd4c379cbdb7d7895]]></id>
       <name><![CDATA[ID_SI_EXT]]></name>
       <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[b4965b13a5052aa51581a7719cf4606b]]></id>
+      <id><![CDATA[b7801c80a3fec01e09e0e5d781547ebe]]></id>
+      <name><![CDATA[WKT]]></name>
+      <type><![CDATA[MultiPoint]]></type>
+      <nullable>false</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[dbbec236804372b00793325ded419625]]></id>
+      <name><![CDATA[VER_SI_EXT]]></name>
+      <description><![CDATA[]]></description>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
+      <id><![CDATA[e364b47bd88853a58e15979c459cd6c1]]></id>
       <name><![CDATA[EST_REF]]></name>
+      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <id><![CDATA[d4fb5d630c9ff2a55a050ad9a72b4ed0]]></id>
-      <name><![CDATA[VER_SI_EXT]]></name>
+      <id><![CDATA[f2e292201ac4be3ad1af47980578e820]]></id>
+      <name><![CDATA[NOM_SI_EXT]]></name>
+      <description><![CDATA[Valeur vide interdite]]></description>
       <type><![CDATA[String]]></type>
-      <size>10</size>
-      <nullable>true</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[ded0d25ff93e3922d8a35ee32d1c27bd]]></id>
-      <name><![CDATA[WKT]]></name>
-      <type><![CDATA[MultiPoint]]></type>
+      <size>50</size>
       <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[e3c49f8338822843ea831840a156239f]]></id>
-      <name><![CDATA[DATIMPORT]]></name>
-      <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

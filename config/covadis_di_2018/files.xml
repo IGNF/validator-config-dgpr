@@ -116,7 +116,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_.*_INONDABLE_.{0,20}_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <path><![CDATA[N_.*_INONDABLE.{0,20}_S_([0-9]{3}|02[aA]|02[bB])]]></path>
       <id><![CDATA[1e2cafc2097fb78aa2d537a37710e651]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[N_prefixTri_INONDABLE_suffixInond_S_ddd]]></name>
@@ -137,7 +137,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[N_.*_ISO_HT_.{0,20}_S_([0-9]{3}|02[aA]|02[bB])]]></path>
+      <path><![CDATA[N_.*_ISO_HT.{0,20}_S_([0-9]{3}|02[aA]|02[bB])]]></path>
       <id><![CDATA[2e6ba626adad1741fa1c93a1bce976e8]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[N_prefixTri_ISO_HT_suffixIsoHt_S_ddd]]></name>
