@@ -76,7 +76,7 @@ cea9aac3b73716f5accb6b797699ff22,59b94cece0c04bb40df2d058ef69fbe6,EST_REF,,Strin
 d7fe9b179c7b7d2c5f8d74c6378a4017,59b94cece0c04bb40df2d058ef69fbe6,TYPE_ACTIV,,String,,1,"03,04,99,07,02,01,06,05",,,,
 faa81b0de6a68a199eec3da5272ce808,59b94cece0c04bb40df2d058ef69fbe6,NOM_SI_EXT,"Valeur vide interdite",String,50,,,,,,
 0ca7740f00084c75cffd1396468ad361,5f5edc2568a4beb2cb4200c80e2d9fff,NOM,,String,100,1,,,,,
-46c230381b08c1a54fc01f2b08fdf64d,5f5edc2568a4beb2cb4200c80e2d9fff,CODE_IPPC,,String,30,1,,,,,1
+46c230381b08c1a54fc01f2b08fdf64d,5f5edc2568a4beb2cb4200c80e2d9fff,CODE_IPPC,,String,30,1,,,,,
 7110007b8eaca23002fd009fd4dab994,5f5edc2568a4beb2cb4200c80e2d9fff,DATIMPORT,,Date,,1,,,,,
 818c9b7f3b11d615d7ce9e4d8fd279ac,5f5edc2568a4beb2cb4200c80e2d9fff,WKT,,MultiPoint,,,,,,,
 95708b2239eb010d9f7a10faab1830a5,5f5edc2568a4beb2cb4200c80e2d9fff,EST_REF,,String,,1,"T,F",,,,
@@ -170,9 +170,7 @@ e687dab359fc6c2e1b31c500048ed830,a2b8bfebc23b2e9ff86666a5317f3026,ID_CARTE,"- CO
 bc878ea685a2435dd2cd23c03ea1e566,a31b326475cf78a5e2dd5e7ae4991bb5,DATENTREE,,Date,,1,,,,,
 cf08e78cbe0b481d5ed0b5e3378a4776,a31b326475cf78a5e2dd5e7ae4991bb5,DATSORTIE,,Date,,1,,,,,
 e170ba1da615534fd0dabebb1db948e9,a31b326475cf78a5e2dd5e7ae4991bb5,ID_TRI,"Valeur vide interdite",String,,,,,,N_prefixTri_TRI_S_ddd.ID_TRI,
-e500f80cdf2448e1750ae219c8ce1d03,a31b326475cf78a5e2dd5e7ae4991bb5,DEBLIN_MIN,"Valeur vide interdite
-- Exprimé en m²/s
-- Ne peut pas être négative",Double,,,,,"DEBLIN_MIN >= 0",,
+e500f80cdf2448e1750ae219c8ce1d03,a31b326475cf78a5e2dd5e7ae4991bb5,DEBLIN_MIN,"Valeur vide interdite- Exprimé en m²/s - Ne peut pas être négative",Double,,,,,"DEBLIN_MIN >= 0",,
 ffd6ccba3faf1f17fe481fa3aa8f98ef,a31b326475cf78a5e2dd5e7ae4991bb5,DEBLIN_MAX,"Exprimé en m²/s - DEBLIN_MAX >= DEBLIN_MIN",Double,,1,,," DEBLIN_MAX= NULL  OR   DEBLIN_MAX >=  DEBLIN_MIN",,
 1bdd78078d8cdd8a17ae93201485bad9,bb1152ec96d65076c8b5a5ee898d733a,WKT,,MultiPoint,,,,,,,
 27fe9a1ee396afef7288769d9d51bf28,bb1152ec96d65076c8b5a5ee898d733a,DEBLIN,"Ne peut pas être négative",Double,,1,,,"DEBLIN >= 0 OR DEBLIN IS NULL",,
@@ -225,6 +223,6 @@ ecf1086d908e948ca3a906d40996a3be,e20359af951c292467fcb915e7c31c4b,EST_REF,,Strin
 826f1a906f914a20e79e5b270d343e94,fc40ca2a89bfe0e66b6d7ca9084783d3,HAB_SAISON,,Integer,,1,,,,,
 834f5775bfa7b3ab42101923f3f7f55f,fc40ca2a89bfe0e66b6d7ca9084783d3,DATSORTIE,,Date,,1,,,,,
 c27a38213c5d8477e66fa27977d189fd,fc40ca2a89bfe0e66b6d7ca9084783d3,DATENTREE,,Date,,1,,,,,
-e3494002d678835aac24600a877db3fa,fc40ca2a89bfe0e66b6d7ca9084783d3,ID_TRI,"COVADIS B1.2. - Identifiant de type [Code EUUOM Bassin DCE]_TRI_[Nom court TRI]. Exemple : ""FRD_TRI_LYON""",String,50,,,"^FR[A-Z0-9]{1,4}_TRI_[A-Z0-9]{1,33}$",,,1
+e3494002d678835aac24600a877db3fa,fc40ca2a89bfe0e66b6d7ca9084783d3,ID_TRI,"COVADIS B1.2. - Identifiant de type [Code EUUOM Bassin DCE]_TRI_[Nom court TRI]. Exemple : ""FRD_TRI_LYON""",String,50,,,"^FR[A-Z0-9]{1,4}_TRI_[A-Z_0-9]{1,33}$",,,1
 f85fac7eb484c62c3721e4f9306da702,fc40ca2a89bfe0e66b6d7ca9084783d3,WKT,,MultiPolygon,,,,,,,
 f9732b41e6a21ec58c40c428a50da51d,fc40ca2a89bfe0e66b6d7ca9084783d3,HAB_PERM,,Integer,,1,,,,,

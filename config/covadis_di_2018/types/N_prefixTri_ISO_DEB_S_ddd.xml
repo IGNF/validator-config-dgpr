@@ -60,8 +60,7 @@
     <attribute>
       <id><![CDATA[e500f80cdf2448e1750ae219c8ce1d03]]></id>
       <name><![CDATA[DEBLIN_MIN]]></name>
-      <description><![CDATA[Valeur vide interdite- Exprimé en m²/s
-- Ne peut pas être négative]]></description>
+      <description><![CDATA[Valeur vide interdite- Exprimé en m²/s - Ne peut pas être négative]]></description>
       <type><![CDATA[Double]]></type>
       <nullable>false</nullable>
       <constraint><![CDATA[DEBLIN_MIN >= 0]]></constraint>
