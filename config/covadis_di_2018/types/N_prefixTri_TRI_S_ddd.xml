@@ -2,15 +2,12 @@
 <featureType>
   <id><![CDATA[fc40ca2a89bfe0e66b6d7ca9084783d3]]></id>
   <typeName><![CDATA[N_prefixTri_TRI_S_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <id><![CDATA[50657730fcbf1639aff214658d973bdf]]></id>
       <name><![CDATA[TX_HAB_SAI]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[596f8bacd6106e5a78698c4d7cc8b422]]></id>
@@ -19,34 +16,27 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[826f1a906f914a20e79e5b270d343e94]]></id>
       <name><![CDATA[HAB_SAISON]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[834f5775bfa7b3ab42101923f3f7f55f]]></id>
       <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c27a38213c5d8477e66fa27977d189fd]]></id>
       <name><![CDATA[DATENTREE]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <regexp><![CDATA[^FR[A-Z0-9]{1,4}_TRI_[A-Z0-9]{1,33}$]]></regexp>
+      <regexp><![CDATA[^FR[A-Z0-9]{1,4}_TRI_[A-Z_0-9]{1,33}$]]></regexp>
       <id><![CDATA[e3494002d678835aac24600a877db3fa]]></id>
       <name><![CDATA[ID_TRI]]></name>
       <description><![CDATA[COVADIS B1.2. - Identifiant de type [Code EUUOM Bassin DCE]_TRI_[Nom court TRI]. Exemple : "FRD_TRI_LYON"]]></description>
@@ -60,15 +50,12 @@
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[f9732b41e6a21ec58c40c428a50da51d]]></id>
       <name><![CDATA[HAB_PERM]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

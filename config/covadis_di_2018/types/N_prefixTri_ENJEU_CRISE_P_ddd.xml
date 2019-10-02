@@ -2,7 +2,6 @@
 <featureType>
   <id><![CDATA[666aa8cb65a4234837fc8e52c961cd92]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_CRISE_P_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <id><![CDATA[09d6f19aef1618359beefcfde99ac66d]]></id>
@@ -11,19 +10,16 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[0d5e412a5ace71187b5083cae021732d]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[436f5a815ab404f5e706360f0c4c8a17]]></id>
@@ -50,24 +46,19 @@
         <value><![CDATA[14]]></value>
         <value><![CDATA[08]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[45fcef0aea44aae925cc366e6056230c]]></id>
       <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8b67c06a69bf7d99717ef2efd0c9028e]]></id>
       <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b882ad0634446796282395e374c85d38]]></id>
@@ -76,14 +67,12 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d4faa5daf55e9d5c7d71768b3a788799]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[^[0-9]{0,4}[a-z]*$]]></regexp>
@@ -93,7 +82,6 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

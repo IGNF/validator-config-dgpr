@@ -2,7 +2,6 @@
 <featureType>
   <id><![CDATA[59b94cece0c04bb40df2d058ef69fbe6]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_ECO_S_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <regexp><![CDATA[^[0-9]{4}[a-z]*$]]></regexp>
@@ -12,23 +11,19 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[5682b7d7d7e36c7c4c495b654ac3f80c]]></id>
       <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[87bbdfca741e8cc29be1a8fae097a8f2]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[94d0e2f1f1b86ecfa47d4a85ef406b6d]]></id>
@@ -37,32 +32,26 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9fbba2e4a1d2dea69d52fca82fff1c8b]]></id>
       <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[cea9aac3b73716f5accb6b797699ff22]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d7fe9b179c7b7d2c5f8d74c6378a4017]]></id>
       <name><![CDATA[TYPE_ACTIV]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
@@ -75,7 +64,6 @@
         <value><![CDATA[06]]></value>
         <value><![CDATA[05]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[faa81b0de6a68a199eec3da5272ce808]]></id>
@@ -84,7 +72,6 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

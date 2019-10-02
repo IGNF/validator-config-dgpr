@@ -2,7 +2,6 @@
 <featureType>
   <id><![CDATA[e20359af951c292467fcb915e7c31c4b]]></id>
   <typeName><![CDATA[N_prefixTri_ENJEU_CRISE_L_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <regexp><![CDATA[^[0-9]{0,4}[a-z]*$]]></regexp>
@@ -12,23 +11,19 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[565c1e034edf1c989cdbd774e0d5c488]]></id>
       <name><![CDATA[VER_SI_EXT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[5d4bd771e534657f0c0c6f94f840d6a0]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[606e9cf800bf5f422b3a99b6bfbc9945]]></id>
@@ -55,7 +50,6 @@
         <value><![CDATA[14]]></value>
         <value><![CDATA[08]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[dd60970d7f938e8e6a440bba585965fc]]></id>
@@ -64,15 +58,12 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e3f1aadb0e12394626083060871095c6]]></id>
       <name><![CDATA[DATIMPORT]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[eac0a6cc86c6aacda1891fcacd8ea609]]></id>
@@ -81,19 +72,16 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ecf1086d908e948ca3a906d40996a3be]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

@@ -2,7 +2,6 @@
 <featureType>
   <id><![CDATA[6f63a412ee3ae88c4cb5cb69f7fcd945]]></id>
   <typeName><![CDATA[N_prefixTri_ECOUL_S_ddd]]></typeName>
-  <description><![CDATA[]]></description>
   <attributes>
     <attribute>
       <id><![CDATA[197a691c7c83639c58cd3b395223bf0d]]></id>
@@ -15,7 +14,6 @@
         <value><![CDATA[For]]></value>
         <value><![CDATA[Mod]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[ZE_[0-9]+$]]></regexp>
@@ -34,19 +32,16 @@
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
       <reference><![CDATA[N_prefixTri_TRI_S_ddd.ID_TRI]]></reference>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[799bede8fa0e54566191e3c08be51bff]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7f8b1b7d9c143d40449bd045130ecab0]]></id>
@@ -55,30 +50,24 @@
       <type><![CDATA[String]]></type>
       <nullable>false</nullable>
       <reference><![CDATA[N_prefixTri_INONDABLE_suffixInond_S_ddd.ID_S_INOND]]></reference>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8d6b2f3bb6345a490430cd27c3d1df9d]]></id>
       <name><![CDATA[WKT]]></name>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[a0366ce1e087059c7b206d7c96e7505e]]></id>
       <name><![CDATA[DATSORTIE]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d9508edbba6c4968e7f8d7e86059e1ae]]></id>
       <name><![CDATA[DATENTREE]]></name>
-      <description><![CDATA[]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>
