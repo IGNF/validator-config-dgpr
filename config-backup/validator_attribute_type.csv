@@ -127,7 +127,7 @@ e364b47bd88853a58e15979c459cd6c1,753e61c837050dc32bdac88721341556,EST_REF,,Strin
 f2e292201ac4be3ad1af47980578e820,753e61c837050dc32bdac88721341556,NOM_SI_EXT,"Valeur vide interdite",String,50,,,,,,
 44b7394c61ca6fa7b001c43722acbde6,872b653303e627041c50b2bca0e83757,DATENTREE,,Date,,1,,,,,
 53a8b31af9c5d596ea674a71bc903c32,872b653303e627041c50b2bca0e83757,SCENARIO,,String,,,"04Fai_100,04Faicc_ct,01Forcc_ct,01Forcc_100,03Mcc_ct,04Fai,01For,02Moy,03Mcc",,,,
-5ae13050f35f80d17187117ffa355778,872b653303e627041c50b2bca0e83757,HT_MAX,"Si cette valeur n’est pas renseignée, la plage de hauteur correspond à la plage des hauteurs maximales (supérieure à une hauteur donnée). Par exemple, la plage des « hauteurs supérieures ou égales à 4 m» sera modélisée dans la base par le remplissage du seuil inférieur de la plage de hauteur (avec dans le cas de l’exemple la valeur « 4 ») et un seuil supérieur laissé vide c’est à dire 9999 pour Mapinfo et NULL pour Qgis.",Double,,1,"0.5,1,2,3,4,",,,,
+5ae13050f35f80d17187117ffa355778,872b653303e627041c50b2bca0e83757,HT_MAX,"Si cette valeur n’est pas renseignée, la plage de hauteur correspond à la plage des hauteurs maximales (supérieure à une hauteur donnée). Par exemple, la plage des « hauteurs supérieures ou égales à 4 m» sera modélisée dans la base par le remplissage du seuil inférieur de la plage de hauteur (avec dans le cas de l’exemple la valeur « 4 ») et un seuil supérieur laissé vide c’est à dire 9999 pour Mapinfo et NULL pour Qgis.",Double,,1,"0.5,1,1.5,2,3,4,",,,,
 701862ec2ae6bed28b2a3e0a55e8fee9,872b653303e627041c50b2bca0e83757,DATSORTIE,,Date,,1,,,,,
 8993748cd627de9058ae8e9a3201ed33,872b653303e627041c50b2bca0e83757,ID_S_INOND,"Valeur vide interdite",String,,,,,,N_prefixTri_INONDABLE_suffixInond_S_ddd.ID_S_INOND,
 8e3b632ceb2ddf9ac4331ecb2c59ac54,872b653303e627041c50b2bca0e83757,EST_REF,,String,,1,"T,F",,,,
@@ -136,7 +136,7 @@ c46c48ecb339be31cb04f157123b7337,872b653303e627041c50b2bca0e83757,COURS_DEAU,,St
 c5e8ca685b183606905fb53eecd9d96c,872b653303e627041c50b2bca0e83757,TYP_INOND,,String,,,"01,04,02,03",,,,
 c848d56350993556f092dbf37006cdfb,872b653303e627041c50b2bca0e83757,ID_TRI,"Valeur vide interdite",String,,,,,,N_prefixTri_TRI_S_ddd.ID_TRI,
 cb1ff310f3d6ac8d03458ac58db02df4,872b653303e627041c50b2bca0e83757,ID_ZONE,"COVADIS B1.2. - Identifiant de type 'ZCH_[numero]'",String,30,,,ZCH_[0-9]+$,,,1
-dd71706bd5f384b00c31a185b5d09d5c,872b653303e627041c50b2bca0e83757,HT_MIN,"Valeur vide interdite",Double,,,"0,0.5,1,2,3,4",,,,
+dd71706bd5f384b00c31a185b5d09d5c,872b653303e627041c50b2bca0e83757,HT_MIN,"Valeur vide interdite",Double,,,"0,0.5,1,1.5,2,3,4",,,,
 fa120eeea2e0a5018c87efee2f8767c2,872b653303e627041c50b2bca0e83757,WKT,,MultiPolygon,,,,,,,
 0da1797ba9e6c0a971032efb5fb9a2b1,9c7af389c9367e37ff3c26ed6db9ffb7,VER_SI_EXT,,String,10,1,,,,,
 27d5b59c7a95509a10e08420484ead66,9c7af389c9367e37ff3c26ed6db9ffb7,CODE_INSEE,,String,5,1,,,,,
