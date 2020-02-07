@@ -165,7 +165,7 @@ d0a3f10cba77397ef3ded392bf6c8fe2,a2b8bfebc23b2e9ff86666a5317f3026,WKT,,MultiPoly
 e687dab359fc6c2e1b31c500048ed830,a2b8bfebc23b2e9ff86666a5317f3026,ID_CARTE,"- COVADIS B1.2. - Identifiant de type 'CSI_[numero automatique]'",String,30,,,CSI_[0-9]+$,,,1
 03444c47ba08c8f475843b1163f2f68f,a31b326475cf78a5e2dd5e7ae4991bb5,ID_ZONE,"COVADIS B1.2. - Identifiant de type ZCD_'[numero]'",String,30,,,ZCD_[0-9]+$,,,1
 15da1d618efc1fe5d54c7ad187da71e7,a31b326475cf78a5e2dd5e7ae4991bb5,ID_S_INOND,"Valeur vide interdite",String,,,,,,N_prefixTri_INONDABLE_suffixInond_S_ddd.ID_S_INOND,
-722358cd6f36568f7af54e7e8bbd686d,a31b326475cf78a5e2dd5e7ae4991bb5,EST_REF,,String,,1,"'T','F'",,,,
+722358cd6f36568f7af54e7e8bbd686d,a31b326475cf78a5e2dd5e7ae4991bb5,EST_REF,,String,,1,"T,F",,,,
 7ec5ac927939180dd96b0241ff5fb66d,a31b326475cf78a5e2dd5e7ae4991bb5,WKT,,MultiPolygon,,,,,,,
 bc878ea685a2435dd2cd23c03ea1e566,a31b326475cf78a5e2dd5e7ae4991bb5,DATENTREE,,Date,,1,,,,,
 cf08e78cbe0b481d5ed0b5e3378a4776,a31b326475cf78a5e2dd5e7ae4991bb5,DATSORTIE,,Date,,1,,,,,

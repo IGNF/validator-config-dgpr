@@ -27,8 +27,8 @@
       <type><![CDATA[String]]></type>
       <nullable>true</nullable>
       <listOfValues>
-        <value><![CDATA['T']]></value>
-        <value><![CDATA['F']]></value>
+        <value><![CDATA[T]]></value>
+        <value><![CDATA[F]]></value>
       </listOfValues>
     </attribute>
     <attribute>
