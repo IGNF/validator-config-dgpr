@@ -30,12 +30,8 @@
     <attribute>
       <id><![CDATA[6bedd4c9b27eacf3ce58a8bea62d0d99]]></id>
       <name><![CDATA[ZP]]></name>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Boolean]]></type>
       <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
       <id><![CDATA[77b0ca4c7bfdf9ddb3e145ca23aad91d]]></id>
@@ -48,12 +44,8 @@
     <attribute>
       <id><![CDATA[a3b7308550cec554f718ac40da776d87]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Boolean]]></type>
       <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
       <regexp><![CDATA[ZPP?_[0-9]+$]]></regexp>
@@ -74,12 +66,8 @@
     <attribute>
       <id><![CDATA[d05e60c57b8d6a6021f1e38f3515eda1]]></id>
       <name><![CDATA[ZPP]]></name>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Boolean]]></type>
       <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
       <id><![CDATA[ef79bb40ea54d87d964f8fd93c431bc1]]></id>

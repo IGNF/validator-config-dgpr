@@ -67,12 +67,8 @@
     <attribute>
       <id><![CDATA[b2031b1c0921bdbf948823fdd5e8de95]]></id>
       <name><![CDATA[EST_SYNTH]]></name>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Boolean]]></type>
       <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
       <id><![CDATA[b6b35d5d577158289011a78459eea12e]]></id>

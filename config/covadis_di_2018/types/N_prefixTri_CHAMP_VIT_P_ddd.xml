@@ -6,12 +6,8 @@
     <attribute>
       <id><![CDATA[0595184d876a2c4f76c8950dcb3b4cfc]]></id>
       <name><![CDATA[EST_REF]]></name>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Boolean]]></type>
       <nullable>true</nullable>
-      <listOfValues>
-        <value><![CDATA[T]]></value>
-        <value><![CDATA[F]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
       <id><![CDATA[060b9e89d489b4ebd48dbdead4ce393d]]></id>
