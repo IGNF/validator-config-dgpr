@@ -1,117 +1,24 @@
-# Principales commandes
+# validator-config-dgpr
 
-Voir l'aide en mode console :
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 
-```
-bin/console list ign_validator
-```
+## Description
 
-# Configurations du validateur
+Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation des standards CNIG au niveau du [Validateur CNIG TRI](https://validateur-tri.ign.fr).
 
-Les commandes permettent les conversions entre les 3 formats de configuration
+## Mises en garde
 
-- Configuration en CSV ( validator-config-cnig/config-backup )
+* Les schémas sont actuellement gérés avec un outil dédié travaillant sur le contenu `config-backup`.
+* L'organisation de ce dépôt est amenée à évoluer.
+* Les issues sont les bienvenues en cas de détection d'un problème.
+* Les contributions directes sur ce dépôt (pull request) ne sont pas souhaitées dans l'immédiat.
 
-- Base de données ( consultation et l'édition via l'interface : <gpu-site>/admin/validator/ )
+## Principes de gestion des modèles
 
-- Configuration XML : utilisée par le validator ( validator-config-cnig/config )
+* Les méta-modèles sont gérés en base de données à l'aide de 4 tables :
 
-```
-        restore             
-     ------------->        export
- CSV                BDD  ------------->  XML
-     <-------------     
-         backup 
-```
-
-Remarque : La commande import, symétrique à export, existe; mais peut perdre des informations (en particulier l'héritage)
-
-
-# Processus de base pour modifier la configuration du validateur
-
-1. Importer la configuration
-
-Mettre à jour la configuration actuelle
-```
-bin/console ign_validator:config:restore --mode update
-```
-
-Ecraser la configuration actuelle
-```
-bin/console ign_validator:config:restore --mode replace
-```
-
-2. Modifier la configuration à l'aide de l'interface
-
-L'interface permet de modifier les différents aspects
-
-3. Sauvegarder la nouvelle configuration
-
-```
-bin/console ign_validator:config:backup
-```
-
-4. Exporter la nouvelle configuration pour le validateur
-
-```
-bin/console ign_validator:config:export
-```
-
-5. Commiter et pusher la nouvelle configuration
-
-
-# Astuce pour dupliquer une configuration
-
-1. Importer la configuration en base de données
-```
-bin/console ign_validator:config:restore --mode update
-```
-
-2. Conserver uniquement les modèles de document à dupliquer
-
-Supprimer les autres dans l'interface
-
-3. Renommer les modèles de document dans l'interface
-
-Par exemple cnig_DU_2013 en cnig_DU_2014
-
-4. Sauvegarder cette configuration dans un répertoire temporaire
-
-```
-mkdir temp
-bin/console ign_validator:config:backup temp
-```
-
-5. Resetter les identifiants dans cette sauvegarde
-
-```
-bin/console ign_validator:config:reset-backup-ids temp
-```
-
-6. Importer cette sauvegarde qui dupliquera le modèle
-
-```
-bin/console ign_validator:config:restore temp --mode update
-```
-
-7. Réimporter le modèle complet
-
-```
-bin/console ign_validator:config:restore --mode update
-```
-
-Remarque : Ce restore rétablira les données d'origine
-
-8. Vérifier le modèle dans l'interface et exporter le modèle complet avec la nouvelle configuration
-
-```
-bin/console ign_validator:config:backup
-```
-
-9. Exporter la nouvelle configuration pour le validateur
-
-```
-bin/console ign_validator:config:export
-```
-
-10. Commiter et pusher la nouvelle configuration
+  * [validator_document_model](config-backup/validator_document_model.csv) : Liste des standards modélisant le contenu des archives pour les PLU, POS, CC, PSMV, SUP et SCoT
+  * [validator_file_model](config-backup/validator_file_model.csv) : Liste des fichiers attendus pour chaque standard
+  * [validator_feature_type](config-backup/validator_feature_type.csv) : Modélisation des fichiers de type "table"
+  * [validator_attribute_type](config-backup/validator_attribute_type.csv) : Modélisation des colonnes des tables
+  * [validator_static_table](config-backup/validator_static_table.csv) : Liste des tables de codes (ex : [PrescriptionPSMVType2019](codes/PrescriptionPSMVType2019.csv))
