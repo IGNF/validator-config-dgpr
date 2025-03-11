@@ -9,7 +9,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 10
+                "maxLength": 100
             }
         },
         {
