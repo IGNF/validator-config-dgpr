@@ -7,7 +7,7 @@
             "name": "TYP_INOND2",
             "type": "String",
             "constraints": {
-                "required": true,
+                "required": false,
                 "unique": false,
                 "enum": [
                     "01",
