@@ -7,11 +7,11 @@
         {
             "type": "table",
             "mandatory": "ERROR",
-            "tableModel": "./types/CANALISATIONS.json",
+            "tableModel": "./types/CANALISATION.json",
             "id": "faoces5drgahdt16evh74un9zp4s454s",
             "name": "CANALISATIONS",
-            "title": "CANALISATIONS",
-            "path": "CANALISATIONS.shp"
+            "title": "CANALISATION",
+            "path": "CANALISATION.shp"
         },
         {
             "type": "table",
