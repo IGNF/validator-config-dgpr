@@ -5,7 +5,6 @@
         {
             "id": "6ezx332yik3kfbbenwopi54h4eizfbhz",
             "name": "nom_transp",
-            "title": "nom_transp",
             "type": "String",
             "description": "Nom du transporteur",
             "constraints": {
@@ -16,7 +15,6 @@
         {
             "id": "ys99p3kedsvrkv1pmjtd7jotvjadpz5p",
             "name": "code_ouv",
-            "title": "code_ouv",
             "type": "String",
             "description": "Identifiant unique attribué à l’ouvrage ou au tronçon d’ouvrage par le transporteur",
             "constraints": {
@@ -27,7 +25,6 @@
         {
             "id": "19r6qh4io3wwhp6hujk9255zu7ufc6lc",
             "name": "des_ouv",
-            "title": "des_ouv",
             "type": "String",
             "description": "Désignation donnée à l’ouvrage par le transporteur",
             "constraints": {
@@ -38,7 +35,6 @@
         {
             "id": "rn0muwqpbmu4sn6qrqy67ev8gi6qxrgc",
             "name": "nat_fluide",
-            "title": "nat_fluide",
             "type": "String",
             "description": "Nature du fluide transporté",
             "constraints": {
@@ -54,7 +50,6 @@
         {
             "id": "7j5jqvp8ms55fkn3r07aicgbl3iqszbq",
             "name": "des_fluide",
-            "title": "des_fluide",
             "type": "String",
             "description": "Désignation des produits",
             "constraints": {
@@ -110,7 +105,6 @@
         {
             "id": "lk9i9hbmm9u7p1zw7he615zmgbqx1lui",
             "name": "dn",
-            "title": "dn",
             "type": "Integer",
             "description": "Diamètre nominal de la canalisation en équivalent mm",
             "constraints": {
@@ -121,7 +115,6 @@
         {
             "id": "2zq3u79oei9uhrllpi11pr8exx09ijji",
             "name": "pms",
-            "title": "pms",
             "type": "Double",
             "description": "Pression Maximale en Service (PMS) autorisée en bar",
             "constraints": {
@@ -132,7 +125,6 @@
         {
             "id": "4k8gu90j8whhxhv29o4dq1c5gu61ojwl",
             "name": "phase_prod",
-            "title": "phase_prod",
             "type": "String",
             "description": "État du produit transporté",
             "constraints": {
@@ -149,7 +141,6 @@
         {
             "id": "edfm96nfb4yjai0f1q96j22dj0l0hh2v",
             "name": "implant",
-            "title": "implant",
             "type": "String",
             "description": "Position de la canalisation par rapport au sol",
             "constraints": {
@@ -164,7 +155,6 @@
         {
             "id": "fprxwxtqtokwxww3duydev2znqfgf7wt",
             "name": "class_prec",
-            "title": "class_prec",
             "type": "String",
             "description": "Classe de précision cartographique en planimétrie de la canalisation",
             "constraints": {
@@ -180,7 +170,6 @@
         {
             "id": "aytojwr2a4t6atee54xxwq9h4kopj30v",
             "name": "sup1",
-            "title": "sup1",
             "type": "Integer",
             "description": "Distance d'effets létaux du phénomène dangereux de référence majorant en m",
             "constraints": {
@@ -191,7 +180,6 @@
         {
             "id": "670hnm2f9yjbvymjbfbznucuiev5z719",
             "name": "sup2",
-            "title": "sup2",
             "type": "Integer",
             "description": "Distance d'effets létaux du phénomène dangereux de référence réduit en m",
             "constraints": {
@@ -202,7 +190,6 @@
         {
             "id": "ddilnwtu2yn95oi2ow2wgj63ryr4uf81",
             "name": "sup3",
-            "title": "sup3",
             "type": "Integer",
             "description": "Distance d'effets létaux significatifs du phénomène dangereux de référence réduit en m",
             "constraints": {
@@ -213,7 +200,6 @@
         {
             "id": "bz7otuwdhzspyouquft0xthsxm8r0phq",
             "name": "annee_pose",
-            "title": "annee_pose",
             "type": "Integer",
             "description": "Année de pose initiale du segment homogène. Ne concerne pas les réparations ou remplacements ponctuels de tube. S’il s’agit d’un projet non-construit indiquer l’année prévisionnelle de pose",
             "constraints": {
@@ -224,7 +210,6 @@
         {
             "id": "hz2dcn4q7tdpiqv5nv88dbfphvvnirjk",
             "name": "coeff_regl",
-            "title": "coeff_regl",
             "type": "String",
             "description": "Coefficient minimal de sécurité réglementaire définit à l’article 6 du présent arrêté en considérant l’occupation humaine actuelle",
             "constraints": {
@@ -240,7 +225,6 @@
         {
             "id": "qr3lbvy24z4v4lw060lwfel866lbpgvu",
             "name": "coeff_const",
-            "title": "coeff_const",
             "type": "String",
             "description": "Coefficient de sécurité de construction",
             "constraints": {
@@ -256,7 +240,6 @@
         {
             "id": "spsujbln9l43e55jvsk9ns6juk5dyqha",
             "name": "materiau",
-            "title": "materiau",
             "type": "String",
             "description": "Matériau",
             "constraints": {
@@ -267,7 +250,6 @@
         {
             "id": "irduu1gnk2dm428bszijbegvm4gezc20",
             "name": "epaisseur",
-            "title": "epaisseur",
             "type": "Double",
             "description": "Epaisseur nominal en mm",
             "constraints": {
@@ -278,7 +260,6 @@
         {
             "id": "5dhjz8ffaq96antlea8sp0ual13ekzex",
             "name": "prof_pose",
-            "title": "prof_pose",
             "type": "Double",
             "description": "Profondeur nominale de pose en m",
             "constraints": {
@@ -289,7 +270,6 @@
         {
             "id": "ux8rszghj2w1hs8gvc4yv2gqorzc1s8u",
             "name": "mcs",
-            "title": "mcs",
             "type": "String",
             "description": "Description des mesures compensatoires",
             "constraints": {

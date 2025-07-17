@@ -1,13 +1,11 @@
 {
     "id": "zfonwybk3jks9in7mmfk22dr0lme5j89",
     "name": "IA",
-    "title": "IA",
     "description": "Données attributaires des canalisations",
     "columns": [
         {
             "id": "ih90ue0wlq3wx7jb1y1iuqa3bnuv1vya",
             "name": "nom_transp",
-            "title": "nom_transp",
             "type": "String",
             "description": "Nom du transporteur",
             "constraints": {
@@ -18,7 +16,6 @@
         {
             "id": "70zju47jmlzn5gwxtawfioufk96hokvo",
             "name": "code_ouv",
-            "title": "code_ouv",
             "type": "String",
             "description": "Identifiant unique attribué à l’IA par le transporteur.",
             "constraints": {
@@ -29,7 +26,6 @@
         {
             "id": "2t3dlz4zr9gs4j5ea1gsi1dhzoinq9so",
             "name": "des_ouv",
-            "title": "des_ouv",
             "type": "String",
             "description": "Désignation donnée à l'IA par le transporteur",
             "constraints": {
@@ -40,7 +36,6 @@
         {
             "id": "mnkil24flv2vmszbrcoy8dp9fiw7hmth",
             "name": "nat_fluide",
-            "title": "nat_fluide",
             "type": "String",
             "description": "Nature du fluide transporté",
             "constraints": {
@@ -56,7 +51,6 @@
         {
             "id": "n5wgzw9f31bevlvkd1wqnzmw1o608co4",
             "name": "des_fluide",
-            "title": "des_fluide",
             "type": "String",
             "description": "Désignation exacte du fluide transporté",
             "constraints": {
@@ -111,7 +105,6 @@
         {
             "id": "hebckouhgo1303ncx88od27eft20qs9r",
             "name": "sup1",
-            "title": "sup1",
             "type": "Integer",
             "description": "Distance d'effets létaux du phénomène dangereux de référence majorant en m",
             "constraints": {
@@ -122,7 +115,6 @@
         {
             "id": "gg8n2x7wspn1myi3piho9h26wst5h96q",
             "name": "sup2",
-            "title": "sup2",
             "type": "Integer",
             "description": "Distance d'effets létaux du phénomène dangereux de référence réduit en m",
             "constraints": {
@@ -133,7 +125,6 @@
         {
             "id": "cmjf8x51uapbla89shcn04dpwterlzua",
             "name": "sup3",
-            "title": "sup3",
             "type": "Integer",
             "description": "Distance d'effets létaux significatifs du phénomène dangereux de référence réduit en m",
             "constraints": {
@@ -144,7 +135,6 @@
         {
             "id": "2hqtjnt7ixbi5porfoo47b0z8jgoccdd",
             "name": "mcs",
-            "title": "mcs",
             "type": "String",
             "description": "Description des mesures compensatoires",
             "constraints": {
