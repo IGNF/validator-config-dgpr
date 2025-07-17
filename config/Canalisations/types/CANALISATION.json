@@ -268,7 +268,7 @@
             "id": "irduu1gnk2dm428bszijbegvm4gezc20",
             "name": "epaisseur",
             "title": "epaisseur",
-            "type": "Float",
+            "type": "Double",
             "description": "Epaisseur nominal en mm",
             "constraints": {
                 "required": false,
@@ -279,7 +279,7 @@
             "id": "5dhjz8ffaq96antlea8sp0ual13ekzex",
             "name": "prof_pose",
             "title": "prof_pose",
-            "type": "Float",
+            "type": "Double",
             "description": "Profondeur nominale de pose en m",
             "constraints": {
                 "required": false,
