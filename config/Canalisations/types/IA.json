@@ -25,7 +25,7 @@
         },
         {
             "id": "2t3dlz4zr9gs4j5ea1gsi1dhzoinq9so",
-            "name": "des_ouv",
+            "name": "desc_ouv",
             "type": "String",
             "description": "Désignation donnée à l'IA par le transporteur",
             "constraints": {

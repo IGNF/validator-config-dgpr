@@ -24,7 +24,7 @@
         },
         {
             "id": "19r6qh4io3wwhp6hujk9255zu7ufc6lc",
-            "name": "des_ouv",
+            "name": "desc_ouv",
             "type": "String",
             "description": "Désignation donnée à l’ouvrage par le transporteur",
             "constraints": {
