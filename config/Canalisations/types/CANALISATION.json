@@ -122,7 +122,7 @@
             "id": "2zq3u79oei9uhrllpi11pr8exx09ijji",
             "name": "pms",
             "title": "pms",
-            "type": "Float",
+            "type": "Double",
             "description": "Pression Maximale en Service (PMS) autorisée en bar",
             "constraints": {
                 "required": true,
@@ -163,8 +163,8 @@
         },
         {
             "id": "fprxwxtqtokwxww3duydev2znqfgf7wt",
-            "name": "incer_pose",
-            "title": "incer_pose",
+            "name": "class_prec",
+            "title": "class_prec",
             "type": "String",
             "description": "Classe de précision cartographique en planimétrie de la canalisation",
             "constraints": {
@@ -268,7 +268,7 @@
             "id": "irduu1gnk2dm428bszijbegvm4gezc20",
             "name": "epaisseur",
             "title": "epaisseur",
-            "type": "Integer",
+            "type": "Float",
             "description": "Epaisseur nominal en mm",
             "constraints": {
                 "required": false,
@@ -279,7 +279,7 @@
             "id": "5dhjz8ffaq96antlea8sp0ual13ekzex",
             "name": "prof_pose",
             "title": "prof_pose",
-            "type": "Integer",
+            "type": "Float",
             "description": "Profondeur nominale de pose en m",
             "constraints": {
                 "required": false,
