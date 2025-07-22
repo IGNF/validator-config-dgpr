@@ -141,6 +141,15 @@
                 "required": false,
                 "unique": false
             }
+        },
+        {
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPolygon",
+            "constraints": {
+                "required": true
+            }
         }
     ]
 }

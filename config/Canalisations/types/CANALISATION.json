@@ -276,6 +276,15 @@
                 "required": false,
                 "unique": false
             }
+        },
+        {
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiLineString",
+            "constraints": {
+                "required": true
+            }
         }
     ]
 }
