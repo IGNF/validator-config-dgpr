@@ -9,6 +9,7 @@
             "description": "Nom du transporteur",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -19,6 +20,7 @@
             "description": "Identifiant unique attribué à l’ouvrage ou au tronçon d’ouvrage par le transporteur",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -29,6 +31,7 @@
             "description": "Désignation donnée à l’ouvrage par le transporteur",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -39,6 +42,7 @@
             "description": "Nature du fluide transporté",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "Gaz naturel ou assimilé",
@@ -54,51 +58,51 @@
             "description": "Désignation des produits",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                     "AMMONIAC",
-                     "ARGON",
-                     "AZOTE",
-                     "BENZENE",
-                     "BITUME",
-                     "BUTADIENE",
-                     "BUTANE",
-                     "ISOBUTANE",
-                     "CARBUREACTEUR",
-                     "JET A1",
-                     "KEROSENE",
-                     "SAF",
-                     "CHLORE",
-                     "CHLORURE DE VINYLE MONOMERE",
-                     "DIOXYDE DE CARBONE",
-                     "EMAG",
-                     "EMHV",
-                     "ESSENCE",
-                     "ETBE",
-                     "ETHANOL",
-                     "ETHYLENE",
-                     "FIOUL DOMESTIQUE",
-                     "FIOUL LOURD",
-                     "FUEL GAS",
-                     "GAZ NATUREL OU ASSIMILE",
-                     "GAZOLE",
-                     "HUILES",
-                     "HVO",
-                     "HYDROGENE",
-                     "HYDROGENE SULFURE",
-                     "METHANOL",
-                     "MEROX",
-                     "NAPHTA",
-                     "OXYDE D’ETHYLENE",
-                     "OXYGENE",
-                     "PETROLE BRUT",
-                     "PROPANE",
-                     "PROPYLENE",
-                     "SAUMURE",
-                     "SOUDE",
-                     "TOLUENE",
-                     "XYLENE"
-
+                    "AMMONIAC",
+                    "ARGON",
+                    "AZOTE",
+                    "BENZENE",
+                    "BITUME",
+                    "BUTADIENE",
+                    "BUTANE",
+                    "ISOBUTANE",
+                    "CARBUREACTEUR",
+                    "JET A1",
+                    "KEROSENE",
+                    "SAF",
+                    "CHLORE",
+                    "CHLORURE DE VINYLE MONOMERE",
+                    "DIOXYDE DE CARBONE",
+                    "EMAG",
+                    "EMHV",
+                    "ESSENCE",
+                    "ETBE",
+                    "ETHANOL",
+                    "ETHYLENE",
+                    "FIOUL DOMESTIQUE",
+                    "FIOUL LOURD",
+                    "FUEL GAS",
+                    "GAZ NATUREL OU ASSIMILE",
+                    "GAZOLE",
+                    "HUILES",
+                    "HVO",
+                    "HYDROGENE",
+                    "HYDROGENE SULFURE",
+                    "METHANOL",
+                    "MEROX",
+                    "NAPHTA",
+                    "OXYDE D’ETHYLENE",
+                    "OXYGENE",
+                    "PETROLE BRUT",
+                    "PROPANE",
+                    "PROPYLENE",
+                    "SAUMURE",
+                    "SOUDE",
+                    "TOLUENE",
+                    "XYLENE"
                 ]
             }
         },
@@ -109,6 +113,7 @@
             "description": "Diamètre nominal de la canalisation en équivalent mm",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -119,6 +124,7 @@
             "description": "Pression Maximale en Service (PMS) autorisée en bar",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -129,6 +135,7 @@
             "description": "État du produit transporté",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "Gazeux",
@@ -145,6 +152,7 @@
             "description": "Position de la canalisation par rapport au sol",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "Enterré",
@@ -159,6 +167,7 @@
             "description": "Classe de précision cartographique en planimétrie de la canalisation",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "A",
@@ -174,6 +183,7 @@
             "description": "Distance d'effets létaux du phénomène dangereux de référence majorant en m",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -184,6 +194,7 @@
             "description": "Distance d'effets létaux du phénomène dangereux de référence réduit en m",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -194,6 +205,7 @@
             "description": "Distance d'effets létaux significatifs du phénomène dangereux de référence réduit en m",
             "constraints": {
                 "required": true,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -204,6 +216,7 @@
             "description": "Année de pose initiale du segment homogène. Ne concerne pas les réparations ou remplacements ponctuels de tube. S’il s’agit d’un projet non-construit indiquer l’année prévisionnelle de pose",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -214,6 +227,7 @@
             "description": "Coefficient minimal de sécurité réglementaire définit à l’article 6 du présent arrêté en considérant l’occupation humaine actuelle",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "A",
@@ -229,6 +243,7 @@
             "description": "Coefficient de sécurité de construction",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "A",
@@ -244,6 +259,7 @@
             "description": "Matériau",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -254,6 +270,7 @@
             "description": "Epaisseur nominal en mm",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -264,6 +281,7 @@
             "description": "Profondeur nominale de pose en m",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -274,6 +292,7 @@
             "description": "Description des mesures compensatoires",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -283,9 +302,9 @@
             "description": "Geométrie associée",
             "type": "MultiLineString",
             "constraints": {
-                "required": true
+                "required": true,
+                "presenceRequired": true
             }
         }
     ]
 }
-
