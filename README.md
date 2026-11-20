@@ -25,7 +25,7 @@ Exemple d'utilisation en ligne de commande (CLI) :
 
 ```bash
   java -jar validator-cli.jar document_validator \
-    --model https://ignf.github.io/validator-config-gpu/config/cnig_PLU_2017/files.json \
+    --model https://ignf.github.io/validator-config-gpu/config/DREAL_canalTMD_2025/files.json \
     --input <dossier_du_document> ...
 ```
 
