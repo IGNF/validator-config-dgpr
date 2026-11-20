@@ -1,0 +1,37 @@
+{
+  "name": "validator-config-dgpr",
+  "version": "8.1.0",
+  "private": true,
+  "description": "Dépôt de gestion de la configuration de IGNF/validator pour la validation des standards DGPR.",
+  "keywords": [
+    "validator",
+    "cnig",
+    "gpu",
+    "urbanisme"
+  ],
+  "homepage": "https://github.com/IGNF/validator-config-dgpr#readme",
+  "bugs": {
+    "url": "https://github.com/IGNF/validator-config-dgpr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGNF/validator-config-dgpr.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "IGN",
+    "email": "gpu-dev@ign.fr"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "edit": "vce serve config",
+    "check": "vce check config",
+    "site": "vce site config _site",
+    "preversion": "npm run check"
+  },
+  "devDependencies": {
+    "validator-config-editor": "github:IGNF/validator-config-editor#v0.3.0"
+  }
+}

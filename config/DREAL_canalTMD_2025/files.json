@@ -6,7 +6,7 @@
     "files": [
         {
             "type": "table",
-            "mandatory": "ERROR",
+            "mandatory": "OPTIONAL",
             "tableModel": "./types/CANALISATION.json",
             "id": "faoces5drgahdt16evh74un9zp4s454s",
             "name": "CANALISATION",
@@ -28,6 +28,5 @@
             "name": "ListeTypesFluides"
         }
     ],
-    "constraints": {
-    }
+    "constraints": {}
 }

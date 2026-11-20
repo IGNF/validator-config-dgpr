@@ -21,12 +21,12 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": true
+                "unique": false
             }
         },
         {
             "id": "19r6qh4io3wwhp6hujk9255zu7ufc6lc",
-            "name": "desc_ouv",
+            "name": "des_ouv",
             "type": "String",
             "description": "Désignation donnée à l’ouvrage par le transporteur",
             "constraints": {
@@ -238,7 +238,7 @@
         },
         {
             "id": "qr3lbvy24z4v4lw060lwfel866lbpgvu",
-            "name": "coeff_const",
+            "name": "coeff_cons",
             "type": "String",
             "description": "Coefficient de sécurité de construction",
             "constraints": {

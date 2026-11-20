@@ -2,3 +2,7 @@
 /.classpath
 
 /bin/
+node_modules/
+_site/
+TODO.md
+image.png

@@ -1,10 +1,11 @@
 {
   "name": "ign/validator-config-dgpr",
   "description": "Fichiers de configuration du validateur pour les modèles COVADIS - directive inondation",
+  "license": "AGPL-3.0-or-later",
   "authors": [
-      {
-          "name": "Clément Bouché",
-          "email": "clement.bouche@ign.fr"
-      }
+    {
+        "name": "IGN",
+        "email": "gpu-dev@ign.fr"
+    }
   ]
 }
