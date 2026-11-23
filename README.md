@@ -3,7 +3,7 @@
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![Site](https://github.com/IGNF/validator-config-dgpr/actions/workflows/pages.yml/badge.svg)](https://ignf.github.io/validator-config-dgpr/)
 
-Configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation des standards DGPR au niveau du [Validateur](https://demo-validateur.ign.fr).
+Configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation des standards DGPR au niveau du [Validateur](https://demo-validator.ign.fr).
 
 ---
 
@@ -18,14 +18,14 @@ Un démonstrateur interactif est disponible pour parcourir l'ensemble des modèl
 
 URL du modèle (Utilisé par l'[API de validation](https://demo-validator.ign.fr) : 
 
-> https://ignf.github.io/validator-config-gpu/config/<modèle>/files.json 
+> https://ignf.github.io/validator-config-dgpr/config/<modèle>/files.json 
 
 
 Exemple d'utilisation en ligne de commande (CLI) :
 
 ```bash
   java -jar validator-cli.jar document_validator \
-    --model https://ignf.github.io/validator-config-gpu/config/DREAL_canalTMD_2025/files.json \
+    --model https://ignf.github.io/validator-config-dgpr/config/DREAL_canalTMD_2025/files.json \
     --input <dossier_du_document> ...
 ```
 
